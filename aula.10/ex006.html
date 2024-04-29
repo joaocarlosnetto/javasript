@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <style>
+
+        h1{
+            width: 100px;
+            height: 100px;
+        }
+        div#area{
+            font-family: Arial, Helvetica, sans-serif;
+            display: block;
+            margin: auto;
+            background-color: rgb(247, 247, 165);
+            padding: 10px;
+            text-align: center;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="d"></h1>
+    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseleave="saiu()">
+        Intereja...
+    </div>
+
+    <script>
+        function clicar(){
+            var a = document.getElementById ('area')
+            a.innerText = 'Clicou'
+            a.style.transition = '0.2s'
+            a.style.width = '300px'
+            var d = document.getElementById ('d')
+            d.style.background = 'rgb(214, 165, 247)'
+        }
+        function entrar(){
+            var b = document.getElementById ('area')
+            b.innerText = 'Entrou'
+        }
+        function saiu(){
+            var c = document.getElementById ('area')
+            c.innerText = 'Saiu'
+            c.style.width = '200px'
+            c.style.background = 'rgb(247, 247, 165)'
+        }
+    </script>
+</body>
+</html>
