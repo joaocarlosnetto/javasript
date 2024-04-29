@@ -1,4 +1,4 @@
 function debut(){
-    var a = document.getElementsById('debut')
-    a.style.width = '200px'
+    var a = document.getElementById('debut')
+    a.style.width = '397px'
 }
