@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header > h1{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(43, 43, 43);
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    text-align: center;
+    padding-top: 25px;
+
+}
+
+div{
+    width: 100%;
+    height: 80px;
+}
+
+div.debut{
+    background-color: rgb(139, 201, 139);
+}
+
+div.fearless{
+    background-color: rgb(216, 196, 131);
+}
+
+div.spn{
+    background-color: rgb(173, 121, 207);
+}
+
+div.red{
+    background-color: brown;
+}
+
+div.nine{
+    background-color: rgb(121, 163, 190);
+}
+
+div.rep{
+    background-color: rgb(32, 32, 32);
+}
+
+div.lover{
+    background-color: pink;
+}
+
+div.folk{
+    background-color: gray;
+}
+
+div.ever{
+    background-color: rgb(192, 117, 67);
+}
+
+div.mid{
+    background-color: rgb(58, 58, 141);
+}
+
+div.ttpd{
+    background-color: lightgray;
+}
+
