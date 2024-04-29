@@ -1,4 +1,4 @@
 function debut(){
-    var d = document.getElementById('debut')
-    d.style.hieight = '12%'
+    var a = document.getElementsById('debut')
+    a.style.width = '200px'
 }
