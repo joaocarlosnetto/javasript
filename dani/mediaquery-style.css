@@ -19,7 +19,7 @@
  @media screen and (min-width: 1025px) and (max-width: 1200px) {
     div{
         display: inline-block;
-        width: 7.2%;
+        width: 90px;
         height: 500px;
         margin-left: -5px;
     }
@@ -27,7 +27,7 @@
  @media screen and (min-width: 1201px) {
     div{
         display: inline-block;
-        width: 7.2%;
+        width: 90px;
         height: 530px;
         margin-left: -5px;
     }
