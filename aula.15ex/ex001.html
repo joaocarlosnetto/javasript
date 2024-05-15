@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-ber">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background-color: lightblue;
+        }
+
+        h1{
+            text-align: center;
+            margin-top: 40px;
+            color: white;
+            text-shadow: 2px 2px 2px rgb(129, 175, 190);
+        }
+
+        section{
+            display: block;
+            margin: auto;
+            margin-top: 40px;
+            width: 650px;
+            height: 200px;
+            background-color: white;
+            box-shadow: 2px 3px 4px rgb(129, 175, 190);
+            border-radius: 10px;
+            padding-top: 20px;
+        }
+        
+        h2{
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+
+        p{
+            padding: 10px;
+        }
+
+        div#res{
+            padding: 10px;
+        }
+
+        img{
+            display: none;
+            margin: auto;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.308);
+            
+        }
+
+    </style>
+</head>
+<body>
+    <header><h1>Contatando</h1></header>
+
+    <section>
+        <div>
+            <p>Início
+                <input type="number" name="inicio" id="txti" >
+            </p>
+            <p>Fim
+                <input type="number" name="fim" id="txtf">
+            </p>
+            <p>Passo
+                <input type="number" name="pass" id="txtp">
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="contar()">
+            </p>
+        </div>
+        <div id="res">Preencha as colunas acima para ver a contagem!</div>
+    </section>
+
+    <script src="script.projeto.js"></script>
+</body>
+</html>
