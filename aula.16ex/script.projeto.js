@@ -24,4 +24,6 @@ function gerar(){
 function esconder(){
     var tabuada = document.getElementById('resultado')
     tabuada.style.display = 'none'
+    var essc = document.getElementById('ess')
+    essc.style.display = 'none'
 }
