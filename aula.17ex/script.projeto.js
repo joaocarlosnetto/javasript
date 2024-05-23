@@ -21,6 +21,7 @@ function finalizar(){
     } else{
         var res = document.getElementById('res')
         var tot = valores.length
-        res.innerHTML += 'Ao todo temos ' + tot + ' elementos cadasttrados.'  
+        res.innerHTML = ''
+        res.innerHTML += 'Ao todo temos ' + tot + ' elementos cadastrados.'  
     }
 }
