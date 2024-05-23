@@ -1,13 +1,32 @@
-var valores = []
 var num = document.getElementById('num')
-    var lista = document.getElementById('list')
-function adicionar(){
-    if(num.value == 0 || num.value > 100){
-        alert('[ERRO]')
+var lista = document.getElementById('list')
+var res = document.getElementById('res')
+var valores = []
+
+function isNumero(n){
+    if(Number(n) >= 1 && Number(n) <= 100){
+        return true
     } else{
-        var item = document.createElement('option')
-        item.text = 'Valor ' + num.value + ' foi adicionado'
-        lista.appendChild(item)
+    return false
+}
+}
+function inLista(n, l){
+    if(l.indexOf(Number(n)) != -1){
+        return true
+    } else{
+        return false
+    }
+}
+
+function adicionar(){
+    if(isNumero(num.value) && !inLista(num.value, valores)){
+       valores.push(Number(num.value))
+       var item = document.createElement('option')
+       item.text = 'O valor ' + num.value + ' foi adicionado'
+       lista.appendChild(item)
+       res.innerHTML = ''
+    } else{
+        alert('[ERRO]')
     }
     num.value = ''
     num.focus()
@@ -15,13 +34,16 @@ function adicionar(){
 
 function finalizar(){
     var sec = document.getElementById('sec')
-    sec.style.height = '340px'
-    if(valores.value == 0){
-        alert('[ERRO]')   
+    sec.style.paddingBottom = '40px'
+    if(valores.length == 0){
+        alert('[ERRO]')
     } else{
-        var res = document.getElementById('res')
         var tot = valores.length
         res.innerHTML = ''
-        res.innerHTML += 'Ao todo temos ' + tot + ' elementos cadastrados.'  
+        if(tot > 1){
+            res.innerHTML += 'Há ' + tot + ' elementos cadastrados'
+        } else{
+            res.innerHTML += 'Há ' + tot + ' elemento cadastrado'
+        }
     }
 }
