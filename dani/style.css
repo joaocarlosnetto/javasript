@@ -22,14 +22,21 @@ section{
 }
 
 div{
-    display: inline-block;
-    width: 9.2%;
+    width: 98px;
+    max-width: 380px;
     height: 400px;
     margin-left: -5px;
+    overflow: hidden;
 }
 
-div#debut{
-    background-color: rgb(139, 201, 139);
+img{
+    width: 400px;
+    height: 400px;
+    max-width: 380px;
+}
+
+div#debut > img{
+   
 }
 
 div#fearless{
