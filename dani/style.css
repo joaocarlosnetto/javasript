@@ -25,7 +25,6 @@ div{
     width: 98px;
     max-width: 380px;
     height: 400px;
-    margin-left: -5px;
     overflow: hidden;
 }
 
@@ -33,6 +32,7 @@ img{
     width: 400px;
     height: 400px;
     max-width: 380px;
+    position: relative;
 }
 
 div#debut > img{

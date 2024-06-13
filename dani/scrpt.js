@@ -2,7 +2,7 @@
 function debut(){
 var d = document.getElementById('debut')
     d.style.width = '380px'
-    d.style.transition = '0.4s'
+    d.style.transition = '0.6s'
     var f = document.getElementById('fearless')
     f.style.width = '98px'
     var s = document.getElementById('spn')
@@ -23,13 +23,36 @@ var d = document.getElementById('debut')
     m.style.width = '98px'
     var t = document.getElementById('ttpd')
     t.style.width = '98px'
+    var idebut = document.getElementById('idebut')
+    idebut.style.transform = 'scale(1.1)'
+    idebut.style.transition = '0.5s'
+    var ifea = document.getElementById('ifea')
+    ifea.style.transform = 'scale(1.0)'
+    var ispn = document.getElementById('ispn')
+    ispn.style.transform = 'scale(1.0)'
+    var ired = document.getElementById('ired')
+    ired.style.transform = 'scale(1.0)'
+    var inine = document.getElementById('inine')
+    inine.style.transform = 'scale(1.0)'
+    var irep = document.getElementById('irep')
+    irep.style.transform = 'scale(1.0)'
+    var ilover = document.getElementById('ilover')
+    ilover.style.transform = 'scale(1.0)'
+    var ifolk = document.getElementById('ifolk')
+    ifolk.style.transform = 'scale(1.0)'
+    var iever = document.getElementById('iever')
+    iever.style.transform = 'scale(1.0)'
+    var imid = document.getElementById('imid')
+    imid.style.transform = 'scale(1.0)'
+    var ittpd = document.getElementById('ittpd')
+    ittpd.style.transform = 'scale(1.0)'
 }
 
  
 function fearless(){
     var f = document.getElementById('fearless')
     f.style.width = '380px'
-    f.style.transition = '0.4s'
+    f.style.transition = '0.6s'
     var d = document.getElementById('debut')
     d.style.width = '98px'
     var s = document.getElementById('spn')
@@ -50,14 +73,36 @@ function fearless(){
     m.style.width = '98px'
     var t = document.getElementById('ttpd')
     t.style.width = '98px'
-    
+    var ifea = document.getElementById('ifea')
+    ifea.style.transform = 'scale(1.1)'
+    ifea.style.transition = '0.5s'
+    var idebut = document.getElementById('idebut')
+    idebut.style.transform = 'scale(1.0)'
+    var ispn = document.getElementById('ispn')
+    ispn.style.transform = 'scale(1.0)'
+    var ired = document.getElementById('ired')
+    ired.style.transform = 'scale(1.0)'
+    var inine = document.getElementById('inine')
+    inine.style.transform = 'scale(1.0)'
+    var irep = document.getElementById('irep')
+    irep.style.transform = 'scale(1.0)'
+    var ilover = document.getElementById('ilover')
+    ilover.style.transform = 'scale(1.0)'
+    var ifolk = document.getElementById('ifolk')
+    ifolk.style.transform = 'scale(1.0)'
+    var iever = document.getElementById('iever')
+    iever.style.transform = 'scale(1.0)'
+    var imid = document.getElementById('imid')
+    imid.style.transform = 'scale(1.0)'
+    var ittpd = document.getElementById('ittpd')
+    ittpd.style.transform = 'scale(1.0)'
 }
 
 
 function spn(){
     var s = document.getElementById('spn')
     s.style.width = '380px'
-    s.style.transition = '0.4s'
+    s.style.transition = '0.6s'
     var d = document.getElementById('debut')
     d.style.width = '98px'
     var f = document.getElementById('fearless')
@@ -78,13 +123,36 @@ function spn(){
     m.style.width = '98px'
     var t = document.getElementById('ttpd')
     t.style.width = '98px'
+    var ispn = document.getElementById('ispn')
+    ispn.style.transform = 'scale(1.1)'
+    ispn.style.transition = '0.5s'
+    var idebut = document.getElementById('idebut')
+    idebut.style.transform = 'scale(1.0)'
+    var ispn = document.getElementById('ifea')
+    ifea.style.transform = 'scale(1.0)'
+    var ired = document.getElementById('ired')
+    ired.style.transform = 'scale(1.0)'
+    var inine = document.getElementById('inine')
+    inine.style.transform = 'scale(1.0)'
+    var irep = document.getElementById('irep')
+    irep.style.transform = 'scale(1.0)'
+    var ilover = document.getElementById('ilover')
+    ilover.style.transform = 'scale(1.0)'
+    var ifolk = document.getElementById('ifolk')
+    ifolk.style.transform = 'scale(1.0)'
+    var iever = document.getElementById('iever')
+    iever.style.transform = 'scale(1.0)'
+    var imid = document.getElementById('imid')
+    imid.style.transform = 'scale(1.0)'
+    var ittpd = document.getElementById('ittpd')
+    ittpd.style.transform = 'scale(1.0)'
     
 }
 
 function red(){
     var r = document.getElementById('red')
     r.style.width = '380px'
-    r.style.transition = '0.4s'
+    r.style.transition = '0.6s'
     var d = document.getElementById('debut')
     d.style.width = '98px'
     var s = document.getElementById('spn')
@@ -105,14 +173,36 @@ function red(){
     m.style.width = '98px'
     var t = document.getElementById('ttpd')
     t.style.width = '98px'
-    
+    var ired= document.getElementById('ired')
+    ired.style.transform = 'scale(1.1)'
+    ired.style.transition = '0.5s'
+    var idebut = document.getElementById('idebut')
+    idebut.style.transform = 'scale(1.0)'
+    var ispn = document.getElementById('ispn')
+    ispn.style.transform = 'scale(1.0)'
+    var ifea = document.getElementById('ifea')
+    ifea.style.transform = 'scale(1.0)'
+    var inine = document.getElementById('inine')
+    inine.style.transform = 'scale(1.0)'
+    var irep = document.getElementById('irep')
+    irep.style.transform = 'scale(1.0)'
+    var ilover = document.getElementById('ilover')
+    ilover.style.transform = 'scale(1.0)'
+    var ifolk = document.getElementById('ifolk')
+    ifolk.style.transform = 'scale(1.0)'
+    var iever = document.getElementById('iever')
+    iever.style.transform = 'scale(1.0)'
+    var imid = document.getElementById('imid')
+    imid.style.transform = 'scale(1.0)'
+    var ittpd = document.getElementById('ittpd')
+    ittpd.style.transform = 'scale(1.0)'
 }
 
 
 function nine(){
     var n = document.getElementById('nine')
     n.style.width = '380px'
-    n.style.transition = '0.4s'
+    n.style.transition = '0.6s'
     var d = document.getElementById('debut')
     d.style.width = '98px'
     var s = document.getElementById('spn')
@@ -133,14 +223,36 @@ function nine(){
     m.style.width = '98px'
     var t = document.getElementById('ttpd')
     t.style.width = '98px'
-    
+    var inine = document.getElementById('inine')
+    inine.style.transform = 'scale(1.1)'
+    inine.style.transition = '0.5s'
+    var idebut = document.getElementById('idebut')
+    idebut.style.transform = 'scale(1.0)'
+    var ispn = document.getElementById('ispn')
+    ispn.style.transform = 'scale(1.0)'
+    var ired = document.getElementById('ired')
+    ired.style.transform = 'scale(1.0)'
+    var ifea = document.getElementById('ifea')
+    ifea.style.transform = 'scale(1.0)'
+    var irep = document.getElementById('irep')
+    irep.style.transform = 'scale(1.0)'
+    var ilover = document.getElementById('ilover')
+    ilover.style.transform = 'scale(1.0)'
+    var ifolk = document.getElementById('ifolk')
+    ifolk.style.transform = 'scale(1.0)'
+    var iever = document.getElementById('iever')
+    iever.style.transform = 'scale(1.0)'
+    var imid = document.getElementById('imid')
+    imid.style.transform = 'scale(1.0)'
+    var ittpd = document.getElementById('ittpd')
+    ittpd.style.transform = 'scale(1.0)'
 }
 
 
 function rep(){
     var r = document.getElementById('rep')
     r.style.width = '380px'
-    r.style.transition = '0.4s'
+    r.style.transition = '0.6s'
     var d = document.getElementById('debut')
     d.style.width = '98px'
     var s = document.getElementById('spn')
@@ -161,14 +273,36 @@ function rep(){
     m.style.width = '98px'
     var t = document.getElementById('ttpd')
     t.style.width = '98px'
-    
+    var irep = document.getElementById('irep')
+    irep.style.transform = 'scale(1.1)'
+    irep.style.transition = '0.5s'
+    var idebut = document.getElementById('idebut')
+    idebut.style.transform = 'scale(1.0)'
+    var ispn = document.getElementById('ispn')
+    ispn.style.transform = 'scale(1.0)'
+    var ired = document.getElementById('ired')
+    ired.style.transform = 'scale(1.0)'
+    var inine = document.getElementById('inine')
+    inine.style.transform = 'scale(1.0)'
+    var ifea = document.getElementById('ifea')
+    ifea.style.transform = 'scale(1.0)'
+    var ilover = document.getElementById('ilover')
+    ilover.style.transform = 'scale(1.0)'
+    var ifolk = document.getElementById('ifolk')
+    ifolk.style.transform = 'scale(1.0)'
+    var iever = document.getElementById('iever')
+    iever.style.transform = 'scale(1.0)'
+    var imid = document.getElementById('imid')
+    imid.style.transform = 'scale(1.0)'
+    var ittpd = document.getElementById('ittpd')
+    ittpd.style.transform = 'scale(1.0)'
 }
 
 
 function lover(){
     var l = document.getElementById('lover')
     l.style.width = '380px'
-    l.style.transition = '0.4s'
+    l.style.transition = '0.6s'
     var d = document.getElementById('debut')
     d.style.width = '98px'
     var s = document.getElementById('spn')
@@ -189,14 +323,36 @@ function lover(){
     m.style.width = '98px'
     var t = document.getElementById('ttpd')
     t.style.width = '98px'
-    
+    var ilover = document.getElementById('ilover')
+    ilover.style.transform = 'scale(1.1)'
+    ilover.style.transition = '0.5s'
+    var idebut = document.getElementById('idebut')
+    idebut.style.transform = 'scale(1.0)'
+    var ispn = document.getElementById('ispn')
+    ispn.style.transform = 'scale(1.0)'
+    var ired = document.getElementById('ired')
+    ired.style.transform = 'scale(1.0)'
+    var inine = document.getElementById('inine')
+    inine.style.transform = 'scale(1.0)'
+    var irep = document.getElementById('irep')
+    irep.style.transform = 'scale(1.0)'
+    var ifea = document.getElementById('ifea')
+    ifea.style.transform = 'scale(1.0)'
+    var ifolk = document.getElementById('ifolk')
+    ifolk.style.transform = 'scale(1.0)'
+    var iever = document.getElementById('iever')
+    iever.style.transform = 'scale(1.0)'
+    var imid = document.getElementById('imid')
+    imid.style.transform = 'scale(1.0)'
+    var ittpd = document.getElementById('ittpd')
+    ittpd.style.transform = 'scale(1.0)'
 }
 
 
 function folk(){
     var fk = document.getElementById('folk')
     fk.style.width = '380px'
-    fk.style.transition = '0.4s'
+    fk.style.transition = '0.6s'
     var d = document.getElementById('debut')
     d.style.width = '98px'
     var s = document.getElementById('spn')
@@ -217,13 +373,35 @@ function folk(){
     m.style.width = '98px'
     var t = document.getElementById('ttpd')
     t.style.width = '98px'
-    
+    var ifolk = document.getElementById('ifolk')
+    ifolk.style.transform = 'scale(1.1)'
+    ifolk.style.transition = '0.5s'
+    var idebut = document.getElementById('idebut')
+    idebut.style.transform = 'scale(1.0)'
+    var ispn = document.getElementById('ispn')
+    ispn.style.transform = 'scale(1.0)'
+    var ired = document.getElementById('ired')
+    ired.style.transform = 'scale(1.0)'
+    var inine = document.getElementById('inine')
+    inine.style.transform = 'scale(1.0)'
+    var irep = document.getElementById('irep')
+    irep.style.transform = 'scale(1.0)'
+    var ilover = document.getElementById('ilover')
+    ilover.style.transform = 'scale(1.0)'
+    var ifea = document.getElementById('ifea')
+    ifea.style.transform = 'scale(1.0)'
+    var iever = document.getElementById('iever')
+    iever.style.transform = 'scale(1.0)'
+    var imid = document.getElementById('imid')
+    imid.style.transform = 'scale(1.0)'
+    var ittpd = document.getElementById('ittpd')
+    ittpd.style.transform = 'scale(1.0)'
 }
 
 function ever(){
     var r = document.getElementById('ever')
     r.style.width = '380px'
-    r.style.transition = '0.4s'
+    r.style.transition = '0.6s'
     var d = document.getElementById('debut')
     d.style.width = '98px'
     var s = document.getElementById('spn')
@@ -244,13 +422,35 @@ function ever(){
     m.style.width = '98px'
     var t = document.getElementById('ttpd')
     t.style.width = '98px'
-    
+    var iever = document.getElementById('iever')
+    iever.style.transform = 'scale(1.1)'
+    iever.style.transition = '0.5s'
+    var idebut = document.getElementById('idebut')
+    idebut.style.transform = 'scale(1.0)'
+    var ispn = document.getElementById('ispn')
+    ispn.style.transform = 'scale(1.0)'
+    var ired = document.getElementById('ired')
+    ired.style.transform = 'scale(1.0)'
+    var inine = document.getElementById('inine')
+    inine.style.transform = 'scale(1.0)'
+    var irep = document.getElementById('irep')
+    irep.style.transform = 'scale(1.0)'
+    var ilover = document.getElementById('ilover')
+    ilover.style.transform = 'scale(1.0)'
+    var ifolk = document.getElementById('ifolk')
+    ifolk.style.transform = 'scale(1.0)'
+    var ifea = document.getElementById('ifea')
+    ifea.style.transform = 'scale(1.0)'
+    var imid = document.getElementById('imid')
+    imid.style.transform = 'scale(1.0)'
+    var ittpd = document.getElementById('ittpd')
+    ittpd.style.transform = 'scale(1.0)'
 }
 
 function mid(){
     var m = document.getElementById('mid')
     m.style.width = '380px'
-    m.style.transition = '0.4s'
+    m.style.transition = '0.6s'
     var d = document.getElementById('debut')
     d.style.width = '98px'
     var s = document.getElementById('spn')
@@ -271,13 +471,35 @@ function mid(){
     r.style.width = '98px'
     var t = document.getElementById('ttpd')
     t.style.width = '98px'
-    
+    var imid = document.getElementById('imid')
+    imid.style.transform = 'scale(1.1)'
+    imid.style.transition = '0.5s'
+    var idebut = document.getElementById('idebut')
+    idebut.style.transform = 'scale(1.0)'
+    var ispn = document.getElementById('ispn')
+    ispn.style.transform = 'scale(1.0)'
+    var ired = document.getElementById('ired')
+    ired.style.transform = 'scale(1.0)'
+    var inine = document.getElementById('inine')
+    inine.style.transform = 'scale(1.0)'
+    var irep = document.getElementById('irep')
+    irep.style.transform = 'scale(1.0)'
+    var ilover = document.getElementById('ilover')
+    ilover.style.transform = 'scale(1.0)'
+    var ifolk = document.getElementById('ifolk')
+    ifolk.style.transform = 'scale(1.0)'
+    var iever = document.getElementById('iever')
+    iever.style.transform = 'scale(1.0)'
+    var ifea = document.getElementById('ifea')
+    ifea.style.transform = 'scale(1.0)'
+    var ittpd = document.getElementById('ittpd')
+    ittpd.style.transform = 'scale(1.0)'
 }
 
 function ttpd(){
     var r = document.getElementById('ttpd')
     r.style.width = '380px'
-    r.style.transition = '0.4s'
+    r.style.transition = '0.6s'
     var d = document.getElementById('debut')
     d.style.width = '98px'
     var s = document.getElementById('spn')
@@ -298,5 +520,27 @@ function ttpd(){
     m.style.width = '98px'
     var t = document.getElementById('mid')
     t.style.width = '98px'
-    
+    var ittpd = document.getElementById('ittpd')
+    ittpd.style.transform = 'scale(1.1)'
+    ittpd.style.transition = '0.5s'
+    var idebut = document.getElementById('idebut')
+    idebut.style.transform = 'scale(1.0)'
+    var ispn = document.getElementById('ispn')
+    ispn.style.transform = 'scale(1.0)'
+    var ired = document.getElementById('ired')
+    ired.style.transform = 'scale(1.0)'
+    var inine = document.getElementById('inine')
+    inine.style.transform = 'scale(1.0)'
+    var irep = document.getElementById('irep')
+    irep.style.transform = 'scale(1.0)'
+    var ilover = document.getElementById('ilover')
+    ilover.style.transform = 'scale(1.0)'
+    var ifolk = document.getElementById('ifolk')
+    ifolk.style.transform = 'scale(1.0)'
+    var iever = document.getElementById('iever')
+    iever.style.transform = 'scale(1.0)'
+    var imid = document.getElementById('imid')
+    imid.style.transform = 'scale(1.0)'
+    var ifea = document.getElementById('ifea')
+    ifea.style.transform = 'scale(1.0)'
 }
