@@ -17,13 +17,13 @@ header > h1{
 
 }
 
-section{
-    position: center;
+article{
+    margin-left: 8px;
 }
 
 div{
     width: 98px;
-    max-width: 380px;
+    max-width: 390px;
     height: 400px;
     overflow: hidden;
 }
