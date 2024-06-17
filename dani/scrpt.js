@@ -1,5 +1,16 @@
 
+var art = document.getElementById('art')
+art.style.marginLeft = '200px'
+
 function debut(){
+
+    art.style.marginLeft = '8px'
+    art.style.transition = '0.6s'
+
+var music = document.getElementById('music')
+    music.style.background = '#a5c9a5'
+    music.style.transition = '0.6s'
+
 var d = document.getElementById('debut')
     d.style.width = '390px'
     d.style.transition = '0.6s'
@@ -63,6 +74,14 @@ function fearless(){
     var f = document.getElementById('fearless')
     f.style.width = '390px'
     f.style.transition = '0.6s'
+
+    art.style.marginLeft = '8px'
+    art.style.transition = '0.6s'
+
+var music = document.getElementById('music')
+    music.style.background = '#efc180'
+    music.style.transition = '0.6s'
+
     var d = document.getElementById('debut')
     d.style.width = '98px'
     d.style.transition = '0.6s'
@@ -123,6 +142,13 @@ function spn(){
     var s = document.getElementById('spn')
     s.style.width = '390px'
     s.style.transition = '0.6s'
+    art.style.marginLeft = '8px'
+    art.style.transition = '0.6s'
+
+    var music = document.getElementById('music')
+    music.style.background = '#c7a8cd'
+    music.style.transition = '0.6s'
+
     var f = document.getElementById('fearless')
     f.style.width = '98px'
     f.style.transition = '0.6s'
@@ -183,6 +209,13 @@ function red(){
     var r = document.getElementById('red')
     r.style.width = '390px'
     r.style.transition = '0.6s'
+    art.style.marginLeft = '8px'
+    art.style.transition = '0.6s'
+
+    var music = document.getElementById('music')
+    music.style.background = '#7a2e39'
+    music.style.transition = '0.6s'
+
     var f = document.getElementById('fearless')
     f.style.width = '98px'
     f.style.transition = '0.6s'
@@ -243,6 +276,13 @@ function nine(){
     var n = document.getElementById('nine')
     n.style.width = '390px'
     n.style.transition = '0.6s'
+    art.style.marginLeft = '8px'
+    art.style.transition = '0.6s'
+
+    var music = document.getElementById('music')
+    music.style.background = '#b5e5f8'
+    music.style.transition = '0.6s'
+
     var f = document.getElementById('fearless')
     f.style.width = '98px'
     f.style.transition = '0.6s'
@@ -303,6 +343,13 @@ function rep(){
     var rp = document.getElementById('rep')
     rp.style.width = '390px'
     rp.style.transition = '0.6s'
+    art.style.marginLeft = '8px'
+    art.style.transition = '0.6s'
+
+    var music = document.getElementById('music')
+    music.style.background = '#424242'
+    music.style.transition = '0.6s'
+
     var f = document.getElementById('fearless')
     f.style.width = '98px'
     f.style.transition = '0.6s'
@@ -363,6 +410,13 @@ function lover(){
     var l = document.getElementById('lover')
     l.style.width = '390px'
     l.style.transition = '0.6s'
+    art.style.marginLeft = '8px'
+    art.style.transition = '0.6s'
+
+    var music = document.getElementById('music')
+    music.style.background = '#f7b0cc'
+    music.style.transition = '0.6s'
+
     var f = document.getElementById('fearless')
     f.style.width = '98px'
     f.style.transition = '0.6s'
@@ -423,6 +477,13 @@ function folk(){
     var fk = document.getElementById('folk')
     fk.style.width = '390px'
     fk.style.transition = '0.6s'
+    art.style.marginLeft = '8px'
+    art.style.transition = '0.6s'
+
+    var music = document.getElementById('music')
+    music.style.background = '#979797'
+    music.style.transition = '0.6s'
+
     var f = document.getElementById('fearless')
     f.style.width = '98px'
     f.style.transition = '0.6s'
@@ -482,6 +543,13 @@ function ever(){
     var e = document.getElementById('ever')
     e.style.width = '390px'
     e.style.transition = '0.6s'
+    art.style.marginLeft = '8px'
+    art.style.transition = '0.6s'
+
+    var music = document.getElementById('music')
+    music.style.background = '#c5ac90'
+    music.style.transition = '0.6s'
+
     var f = document.getElementById('fearless')
     f.style.width = '98px'
     f.style.transition = '0.6s'
@@ -541,6 +609,13 @@ function mid(){
     var m = document.getElementById('mid')
     m.style.width = '390px'
     m.style.transition = '0.6s'
+    art.style.marginLeft = '8px'
+    art.style.transition = '0.6s'
+
+    var music = document.getElementById('music')
+    music.style.background = '#242e47'
+    music.style.transition = '0.6s'
+
     var f = document.getElementById('fearless')
     f.style.width = '98px'
     f.style.transition = '0.6s'
@@ -600,6 +675,13 @@ function ttpd(){
     var t = document.getElementById('ttpd')
     t.style.width = '390px'
     t.style.transition = '0.6s'
+    art.style.marginLeft = '8px'
+    art.style.transition = '0.6s'
+
+    var music = document.getElementById('music')
+    music.style.background = '#cccccc'
+    music.style.transition = '0.6s'
+
     var f = document.getElementById('fearless')
     f.style.width = '98px'
     f.style.transition = '0.6s'
