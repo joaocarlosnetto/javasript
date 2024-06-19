@@ -25,6 +25,12 @@
     }
  }
  @media screen and (min-width: 1201px) {
+
+    
+    article#art{
+        margin-left: 200px;
+    }
+    
     div{
         display: inline-block;
         width: 90px;

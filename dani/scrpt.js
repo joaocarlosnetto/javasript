@@ -1,10 +1,9 @@
 
 var art = document.getElementById('art')
-art.style.marginLeft = '200px'
 
 function debut(){
 
-    art.style.marginLeft = '8px'
+    art.style.marginLeft = '1.5%'
     art.style.transition = '0.6s'
 
 var music = document.getElementById('music')
@@ -12,37 +11,37 @@ var music = document.getElementById('music')
     music.style.transition = '0.6s'
 
 var d = document.getElementById('debut')
-    d.style.width = '400px'
+    d.style.width = '30%'
     d.style.transition = '0.6s'
     var f = document.getElementById('fearless')
-    f.style.width = '95.4px'
+    f.style.width = '7%'
     f.style.transition = '0.6s'
     var s = document.getElementById('spn')
-    s.style.width = '95.4px'
+    s.style.width = '7%'
     s.style.transition = '0.6s'
     var r = document.getElementById('red')
-    r.style.width = '95.4px'
+    r.style.width = '7%'
     r.style.transition = '0.6s'
     var n = document.getElementById('nine')
-    n.style.width = '95.4px'
+    n.style.width = '7%'
     n.style.transition = '0.6s'
     var rp = document.getElementById('rep')
-    rp.style.width = '95.4px'
+    rp.style.width = '7%'
     rp.style.transition = '0.6s'
     var l = document.getElementById('lover')
-    l.style.width = '95.4px'
+    l.style.width = '7%'
     l.style.transition = '0.6s'
     var fk = document.getElementById('folk')
-    fk.style.width = '95.4px'
+    fk.style.width = '7%'
     fk.style.transition = '0.6s'
     var e = document.getElementById('ever')
-    e.style.width = '95.4px'
+    e.style.width = '7%'
     e.style.transition = '0.6s'
     var m = document.getElementById('mid')
-    m.style.width = '95.4px'
+    m.style.width = '7%'
     m.style.transition = '0.6s'
     var t = document.getElementById('ttpd')
-    t.style.width = '95.4px'
+    t.style.width = '7%'
     t.style.transition = '0.6s'
     var idebut = document.getElementById('idebut')
     idebut.style.transform = 'scale(1.1)'
