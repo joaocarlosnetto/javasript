@@ -9,33 +9,60 @@
  telas extra grandes, tv: 1201px para mais */
 
  @media screen and (min-width: 481px) and (max-width: 768px) {
+
+
+    div{
+        display: inline-block;
+        height: 350px;
+        margin-left: -5px;
+    }
     
  }
 
  @media screen and (min-width: 769px) and (max-width: 1024px) {
 
+    article#art{
+       margin-left: 15px;
+    }
+
+    div{
+        width: 7%;
+        display: inline-block;
+        height: 490px;
+        margin-left: -5px;
+    }
+
  }
 
  @media screen and (min-width: 1025px) and (max-width: 1200px) {
+
+    article#art{
+        justify-content: center;
+        margin-left: -30px;
+
+    }
+
     div{
         display: inline-block;
-        width: 90px;
+        width: 6%;
         height: 500px;
         margin-left: -5px;
     }
+
  }
  @media screen and (min-width: 1201px) {
 
     
     article#art{
-        margin-left: 200px;
+        margin-left: 0px;
     }
     
     div{
         display: inline-block;
-        width: 90px;
+        width: 6.9%;
         height: 530px;
         margin-left: -5px;
+        color: rgb(136, 65, 65);
     }
  }
 
