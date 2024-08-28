@@ -3,9 +3,11 @@ var art = document.getElementById('art')
 
 var d = document.getElementById('debut')
 
+var mv = document.getElementById('mv')
 
-var music = document.getElementById('music')
-    music.style.background = 'white'
+var txt = document.getElementById('txta')
+
+var capa = document.getElementById('capa')
 
 function debut(){
 
@@ -18,11 +20,6 @@ function debut(){
     var body = document.getElementById("body")
     body.style.backgroundColor = '#a5c9a5'
     body.style.transition = '0.8s'
-
-    music.style.background = 'white'
-    music.innerText = 'A Perfctly Good Heart'
-    music.style.transition = '0.6s'
-
 
     d.style.width = '30.5%'
     d.style.transition = '0.6s'
@@ -56,29 +53,14 @@ function debut(){
     var t = document.getElementById('ttpd')
     t.style.width = '7.2%'
     t.style.transition = '0.6s'
-    var idebut = document.getElementById('idebut')
-    idebut.style.transform = 'scale(1.1)'
-    idebut.style.transition = '0.5s'
-    var ifea = document.getElementById('ifea')
-    ifea.style.transform = 'scale(1.0)'
-    var ispn = document.getElementById('ispn')
-    ispn.style.transform = 'scale(1.0)'
-    var ired = document.getElementById('ired')
-    ired.style.transform = 'scale(1.0)'
-    var inine = document.getElementById('inine')
-    inine.style.transform = 'scale(1.0)'
-    var irep = document.getElementById('irep')
-    irep.style.transform = 'scale(1.0)'
-    var ilover = document.getElementById('ilover')
-    ilover.style.transform = 'scale(1.0)'
-    var ifolk = document.getElementById('ifolk')
-    ifolk.style.transform = 'scale(1.0)'
-    var iever = document.getElementById('iever')
-    iever.style.transform = 'scale(1.0)'
-    var imid = document.getElementById('imid')
-    imid.style.transform = 'scale(1.0)'
-    var ittpd = document.getElementById('ittpd')
-    ittpd.style.transform = 'scale(1.0)'
+
+    mv.style.backgroundColor = '#3A633A'
+    mv.style.transition = '0.8s'
+
+    txt.innerHTML = 'Taylor Swift é o álbum de estreia homônimo da cantora e compositora estadunidense Taylor Swift, lançado através da Big Machine Records em 24 de outubro de 2006. O álbum conta com a produção de Nathan Chapman e Robert Ellis Orrall, e traz composições assinadas pela própria Swift em parceria com Liz Rose e os também produtores Orrall e Angelo Petraglia.'
+    capa.style.display = 'block'
+    capa.src = 'img/debut.capa.jpg'
+
 }
 
  
@@ -96,9 +78,6 @@ function fearless(){
     body.style.transition = '0.8s'
 
     var music = document.getElementById('music')
-    music.style.background = 'white'
-    music.innerText = 'Mr. Perfectly Fine'
-    music.style.transition = '0.6s'
 
     f.style.width = '30.5%'
     f.style.transition = '0.6s'
@@ -132,29 +111,9 @@ function fearless(){
     var t = document.getElementById('ttpd')
     t.style.width = '7.2%'
     t.style.transition = '0.6s'
-    var ifea = document.getElementById('ifea')
-    ifea.style.transform = 'scale(1.1)'
-    ifea.style.transition = '0.5s'
-    var idebut = document.getElementById('idebut')
-    idebut.style.transform = 'scale(1.0)'
-    var ispn = document.getElementById('ispn')
-    ispn.style.transform = 'scale(1.0)'
-    var ired = document.getElementById('ired')
-    ired.style.transform = 'scale(1.0)'
-    var inine = document.getElementById('inine')
-    inine.style.transform = 'scale(1.0)'
-    var irep = document.getElementById('irep')
-    irep.style.transform = 'scale(1.0)'
-    var ilover = document.getElementById('ilover')
-    ilover.style.transform = 'scale(1.0)'
-    var ifolk = document.getElementById('ifolk')
-    ifolk.style.transform = 'scale(1.0)'
-    var iever = document.getElementById('iever')
-    iever.style.transform = 'scale(1.0)'
-    var imid = document.getElementById('imid')
-    imid.style.transform = 'scale(1.0)'
-    var ittpd = document.getElementById('ittpd')
-    ittpd.style.transform = 'scale(1.0)'
+
+    mv.style.backgroundColor = '#E8D7BE'
+    mv.style.transition = '0.8s'
 }
 
 
@@ -172,10 +131,6 @@ function spn(){
     body.style.transition = '0.8s'
     
 
-    var music = document.getElementById('music')
-    music.style.background = 'white'
-    music.innerText = 'Mine'
-    music.style.transition = '0.6s'
 
     s.style.width = '30.5%'
     s.style.transition = '0.6s'
@@ -209,31 +164,9 @@ function spn(){
     var t = document.getElementById('ttpd')
     t.style.width = '7.2%'
     t.style.transition = '0.6s'
-    var ired= document.getElementById('ispn')
-    ispn.style.transform = 'scale(1.1)'
-    ispn.style.transition = '0.8s'
-    var idebut = document.getElementById('idebut')
-    idebut.style.transform = 'scale(1.0)'
-    var ired = document.getElementById('ired')
-    ired.style.transform = 'scale(1.0)'
-    var ifea = document.getElementById('ifea')
-    ifea.style.transform = 'scale(1.0)'
-    var ired = document.getElementById('ired')
-    ired.style.transform = 'scale(1.0)'
-    var inine = document.getElementById('inine')
-    inine.style.transform = 'scale(1.0)'
-    var irep = document.getElementById('irep')
-    irep.style.transform = 'scale(1.0)'
-    var ilover = document.getElementById('ilover')
-    ilover.style.transform = 'scale(1.0)'
-    var ifolk = document.getElementById('ifolk')
-    ifolk.style.transform = 'scale(1.0)'
-    var iever = document.getElementById('iever')
-    iever.style.transform = 'scale(1.0)'
-    var imid = document.getElementById('imid')
-    imid.style.transform = 'scale(1.0)'
-    var ittpd = document.getElementById('ittpd')
-    ittpd.style.transform = 'scale(1.0)'
+
+    mv.style.backgroundColor = '#66406E'
+    mv.style.transition = '0.8s'
 }
 
 function red(){
@@ -249,10 +182,6 @@ function red(){
     body.style.backgroundColor = '#884141'
     body.style.transition = '0.8s'
 
-    var music = document.getElementById('music')
-    music.style.background = 'white'
-    music.innerText = 'All To Well (10 Minute Version)'
-    music.style.transition = '0.6s'
 
     r.style.width = '30.5%'
     r.style.transition = '0.6s'
@@ -286,29 +215,9 @@ function red(){
     var t = document.getElementById('ttpd')
     t.style.width = '7.2%'
     t.style.transition = '0.6s'
-    var ired = document.getElementById('ired')
-    ired.style.transform = 'scale(1.1)'
-    ired.style.transition = '0.5s'
-    var idebut = document.getElementById('idebut')
-    idebut.style.transform = 'scale(1.0)'
-    var ispn = document.getElementById('ispn')
-    ispn.style.transform = 'scale(1.0)'
-    var ifea = document.getElementById('ifea')
-    ifea.style.transform = 'scale(1.0)'
-    var inine = document.getElementById('inine')
-    inine.style.transform = 'scale(1.0)'
-    var irep = document.getElementById('irep')
-    irep.style.transform = 'scale(1.0)'
-    var ilover = document.getElementById('ilover')
-    ilover.style.transform = 'scale(1.0)'
-    var ifolk = document.getElementById('ifolk')
-    ifolk.style.transform = 'scale(1.0)'
-    var iever = document.getElementById('iever')
-    iever.style.transform = 'scale(1.0)'
-    var imid = document.getElementById('imid')
-    imid.style.transform = 'scale(1.0)'
-    var ittpd = document.getElementById('ittpd')
-    ittpd.style.transform = 'scale(1.0)'
+
+    mv.style.backgroundColor = '#e79283'
+    mv.style.transition = '0.8s'
 }
 
 
@@ -325,10 +234,6 @@ function nine(){
     body.style.backgroundColor = '#bbe0ee'
     body.style.transition = '0.8s'
 
-    var music = document.getElementById('music')
-    music.style.background = 'white'
-    music.innerText = 'Wordeland'
-    music.style.transition = '0.8s'
 
     n.style.width = '30.5%'
     n.style.transition = '0.6s'
@@ -362,29 +267,9 @@ function nine(){
     var t = document.getElementById('ttpd')
     t.style.width = '7.2%'
     t.style.transition = '0.6s'
-    var inine = document.getElementById('inine')
-    inine.style.transform = 'scale(1.1)'
-    inine.style.transition = '0.8s'
-    var idebut = document.getElementById('idebut')
-    idebut.style.transform = 'scale(1.0)'
-    var ispn = document.getElementById('ispn')
-    ispn.style.transform = 'scale(1.0)'
-    var ired = document.getElementById('ired')
-    ired.style.transform = 'scale(1.0)'
-    var ifea = document.getElementById('ifea')
-    ifea.style.transform = 'scale(1.0)'
-    var irep = document.getElementById('irep')
-    irep.style.transform = 'scale(1.0)'
-    var ilover = document.getElementById('ilover')
-    ilover.style.transform = 'scale(1.0)'
-    var ifolk = document.getElementById('ifolk')
-    ifolk.style.transform = 'scale(1.0)'
-    var iever = document.getElementById('iever')
-    iever.style.transform = 'scale(1.0)'
-    var imid = document.getElementById('imid')
-    imid.style.transform = 'scale(1.0)'
-    var ittpd = document.getElementById('ittpd')
-    ittpd.style.transform = 'scale(1.0)'
+
+    mv.style.backgroundColor = '#527987'
+    mv.style.transition = '0.8s'
 }
 
 
@@ -400,11 +285,6 @@ function rep(){
     var body = document.getElementById("body")
     body.style.backgroundColor = '#424242'
     body.style.transition = '0.8s'
-
-    var music = document.getElementById('music')
-    music.style.background = 'white'
-    music.innerText = 'King Of My Heart'
-    music.style.transition = '0.8s'
 
     rp.style.width = '30.5%'
     rp.style.transition = '0.6s'
@@ -438,29 +318,9 @@ function rep(){
     var t = document.getElementById('ttpd')
     t.style.width = '7.2%'
     t.style.transition = '0.6s'
-    var irep = document.getElementById('irep')
-    irep.style.transform = 'scale(1.1)'
-    irep.style.transition = '0.8s'
-    var idebut = document.getElementById('idebut')
-    idebut.style.transform = 'scale(1.0)'
-    var ispn = document.getElementById('ispn')
-    ispn.style.transform = 'scale(1.0)'
-    var ired = document.getElementById('ired')
-    ired.style.transform = 'scale(1.0)'
-    var inine = document.getElementById('inine')
-    inine.style.transform = 'scale(1.0)'
-    var ifea = document.getElementById('ifea')
-    ifea.style.transform = 'scale(1.0)'
-    var ilover = document.getElementById('ilover')
-    ilover.style.transform = 'scale(1.0)'
-    var ifolk = document.getElementById('ifolk')
-    ifolk.style.transform = 'scale(1.0)'
-    var iever = document.getElementById('iever')
-    iever.style.transform = 'scale(1.0)'
-    var imid = document.getElementById('imid')
-    imid.style.transform = 'scale(1.0)'
-    var ittpd = document.getElementById('ittpd')
-    ittpd.style.transform = 'scale(1.0)'
+
+    mv.style.backgroundColor = '#A3A3A3'
+    mv.style.transition = '0.8s'
 }
 
 
@@ -477,10 +337,6 @@ function lover(){
     body.style.backgroundColor = '#f3bcd2'
     body.style.transition = '0.8s'
 
-    var music = document.getElementById('music')
-    music.style.background = 'white'
-    music.innerText = 'False God'
-    music.style.transition = '0.8s'
 
     l.style.width = '30.5%'
     l.style.transition = '0.6s'
@@ -514,29 +370,9 @@ function lover(){
     var t = document.getElementById('ttpd')
     t.style.width = '7.2%'
     t.style.transition = '0.6s'
-    var ilover = document.getElementById('ilover')
-    ilover.style.transform = 'scale(1.1)'
-    ilover.style.transition = '0.8s'
-    var idebut = document.getElementById('idebut')
-    idebut.style.transform = 'scale(1.0)'
-    var ispn = document.getElementById('ispn')
-    ispn.style.transform = 'scale(1.0)'
-    var ired = document.getElementById('ired')
-    ired.style.transform = 'scale(1.0)'
-    var inine = document.getElementById('inine')
-    inine.style.transform = 'scale(1.0)'
-    var irep = document.getElementById('irep')
-    irep.style.transform = 'scale(1.0)'
-    var ifea = document.getElementById('ifea')
-    ifea.style.transform = 'scale(1.0)'
-    var ifolk = document.getElementById('ifolk')
-    ifolk.style.transform = 'scale(1.0)'
-    var iever = document.getElementById('iever')
-    iever.style.transform = 'scale(1.0)'
-    var imid = document.getElementById('imid')
-    imid.style.transform = 'scale(1.0)'
-    var ittpd = document.getElementById('ittpd')
-    ittpd.style.transform = 'scale(1.0)'
+
+    mv.style.backgroundColor = '#8C586D'
+    mv.style.transition = '0.8s'
 }
 
 
@@ -553,10 +389,7 @@ function folk(){
     body.style.backgroundColor = '#979797'
     body.style.transition = '0.8s'
 
-    var music = document.getElementById('music')
-    music.style.background = 'white'
-    music.innerText = 'seven'
-    music.style.transition = '0.8s'
+
 
     fk.style.width = '30.5%'
     fk.style.transition = '0.6s'
@@ -590,29 +423,9 @@ function folk(){
     var t = document.getElementById('ttpd')
     t.style.width = '7.2%'
     t.style.transition = '0.6s'
-    var ifolk = document.getElementById('ifolk')
-    ifolk.style.transform = 'scale(1.1)'
-    ifolk.style.transition = '0.5s'
-    var idebut = document.getElementById('idebut')
-    idebut.style.transform = 'scale(1.0)'
-    var ispn = document.getElementById('ispn')
-    ispn.style.transform = 'scale(1.0)'
-    var ired = document.getElementById('ired')
-    ired.style.transform = 'scale(1.0)'
-    var inine = document.getElementById('inine')
-    inine.style.transform = 'scale(1.0)'
-    var irep = document.getElementById('irep')
-    irep.style.transform = 'scale(1.0)'
-    var ilover = document.getElementById('ilover')
-    ilover.style.transform = 'scale(1.0)'
-    var ifea = document.getElementById('ifea')
-    ifea.style.transform = 'scale(1.0)'
-    var iever = document.getElementById('iever')
-    iever.style.transform = 'scale(1.0)'
-    var imid = document.getElementById('imid')
-    imid.style.transform = 'scale(1.0)'
-    var ittpd = document.getElementById('ittpd')
-    ittpd.style.transform = 'scale(1.0)'
+
+    mv.style.backgroundColor = '#D9D9D9'
+    mv.style.transition = '0.8s'
 }
 
 function ever(){
@@ -628,10 +441,6 @@ function ever(){
     body.style.backgroundColor = '#c5ac90'
     body.style.transition = '0.8s'
 
-    var music = document.getElementById('music')
-    music.style.background = 'white'
-    music.innerText = 'champange problems'
-    music.style.transition = '0.8s'
 
     e.style.width = '30.5%'
     e.style.transition = '0.6s'
@@ -665,29 +474,9 @@ function ever(){
     var t = document.getElementById('ttpd')
     t.style.width = '7.2%'
     t.style.transition = '0.6s'
-    var iever = document.getElementById('iever')
-    iever.style.transform = 'scale(1.1)'
-    iever.style.transition = '0.8s'
-    var idebut = document.getElementById('idebut')
-    idebut.style.transform = 'scale(1.0)'
-    var ispn = document.getElementById('ispn')
-    ispn.style.transform = 'scale(1.0)'
-    var ired = document.getElementById('ired')
-    ired.style.transform = 'scale(1.0)'
-    var inine = document.getElementById('inine')
-    inine.style.transform = 'scale(1.0)'
-    var irep = document.getElementById('irep')
-    irep.style.transform = 'scale(1.0)'
-    var ilover = document.getElementById('ilover')
-    ilover.style.transform = 'scale(1.0)'
-    var ifolk = document.getElementById('ifolk')
-    ifolk.style.transform = 'scale(1.0)'
-    var ifea = document.getElementById('ifea')
-    ifea.style.transform = 'scale(1.0)'
-    var imid = document.getElementById('imid')
-    imid.style.transform = 'scale(1.0)'
-    var ittpd = document.getElementById('ittpd')
-    ittpd.style.transform = 'scale(1.0)'
+
+    mv.style.backgroundColor = '#4D2C1C'
+    mv.style.transition = '0.8s'
 }
 
 function mid(){
@@ -703,10 +492,6 @@ function mid(){
     body.style.backgroundColor = '#242e47'
     body.style.transition = '0.8s'
 
-    var music = document.getElementById('music')
-    music.style.background = 'white'
-    music.innerText = 'Anti-Hero'
-    music.style.transition = '0.8s'
 
     m.style.width = '30.5%'
     m.style.transition = '0.6s'
@@ -740,29 +525,9 @@ function mid(){
     var t = document.getElementById('ttpd')
     t.style.width = '7.2%'
     t.style.transition = '0.6s'
-    var imid = document.getElementById('imid')
-    imid.style.transform = 'scale(1.1)'
-    imid.style.transition = '0.8s'
-    var idebut = document.getElementById('idebut')
-    idebut.style.transform = 'scale(1.0)'
-    var ispn = document.getElementById('ispn')
-    ispn.style.transform = 'scale(1.0)'
-    var ired = document.getElementById('ired')
-    ired.style.transform = 'scale(1.0)'
-    var inine = document.getElementById('inine')
-    inine.style.transform = 'scale(1.0)'
-    var irep = document.getElementById('irep')
-    irep.style.transform = 'scale(1.0)'
-    var ilover = document.getElementById('ilover')
-    ilover.style.transform = 'scale(1.0)'
-    var ifolk = document.getElementById('ifolk')
-    ifolk.style.transform = 'scale(1.0)'
-    var iever = document.getElementById('iever')
-    iever.style.transform = 'scale(1.0)'
-    var ifea = document.getElementById('ifea')
-    ifea.style.transform = 'scale(1.0)'
-    var ittpd = document.getElementById('ittpd')
-    ittpd.style.transform = 'scale(1.0)'
+
+    mv.style.backgroundColor = '#9AA0AD'
+    mv.style.transition = '0.8s'
 }
 
 function ttpd(){
@@ -778,10 +543,6 @@ function ttpd(){
     body.style.backgroundColor = '#cccccc'
     body.style.transition = '0.8s'
 
-    var music = document.getElementById('music')
-    music.style.background = 'white'
-    music.innerText = 'But Daddy I Love Him'
-    music.style.transition = '0.8s'
 
     t.style.width = '30.5%'
     t.style.transition = '0.6s'
@@ -815,24 +576,7 @@ function ttpd(){
     var f = document.getElementById('fearless')
     f.style.width = '7.2%'
     f.style.transition = '0.6s'
-    var idebut = document.getElementById('idebut')
-    idebut.style.transform = 'scale(1.0)'
-    var ispn = document.getElementById('ispn')
-    ispn.style.transform = 'scale(1.0)'
-    var ired = document.getElementById('ired')
-    ired.style.transform = 'scale(1.0)'
-    var inine = document.getElementById('inine')
-    inine.style.transform = 'scale(1.0)'
-    var irep = document.getElementById('irep')
-    irep.style.transform = 'scale(1.0)'
-    var ilover = document.getElementById('ilover')
-    ilover.style.transform = 'scale(1.0)'
-    var ifolk = document.getElementById('ifolk')
-    ifolk.style.transform = 'scale(1.0)'
-    var iever = document.getElementById('iever')
-    iever.style.transform = 'scale(1.0)'
-    var imid = document.getElementById('imid')
-    imid.style.transform = 'scale(1.0)'
-    var ifea = document.getElementById('ifea')
-    ifea.style.transform = 'scale(1.0)'
+
+    mv.style.backgroundColor = '#808080'
+    mv.style.transition = '0.8s'
 }

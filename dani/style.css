@@ -29,9 +29,12 @@ h2#music{
 }
 
 article#art{
+    display: block;
+    margin: auto;
     align-content: center;
-    margin-left: 30px;
-    max-width: 120%;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -44,6 +47,7 @@ div{
     height: 200px;
     overflow: hidden; 
     max-width: 1000px;
+    margin-bottom: -4px;
 }
 
 img{
@@ -52,47 +56,98 @@ img{
     position: relative;
 }
 
-div#debut > img{
-   
+div#debut{
+   background-image: url(img/debut.jpg);
+   background-position: left;
+   background-size: cover;
 }
 
 div#fearless{
- color: rgb(136, 65, 65);
+    background-image: url(img/fearless.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 div#spn{
-
+    background-image: url(img/speakNow.jpg);
+   background-position: center;
+   background-size: cover;
 }
 
 div#red{
+    background-image: url(img/red.jpg);
+   background-position: center;
+   background-size: cover;
     
 }
 
 div#nine{
+    background-image: url(img/nine.jpg);
+   background-position: center;
+   background-size: cover;
  
 }
 
 div#rep{
+    background-image: url(img/reputation.jpeg);
+   background-position: center;
+   background-size: cover;
   
 }
 
 div#lover{
+    background-image: url(img/lover.jpg);
+   background-position: center;
+   background-size: cover;
  
 }
 
 div#folk{
+    background-image: url(img/folklore.png);
+   background-position: center;
+   background-size: cover;
  
 }
 
 div#ever{
+    background-image: url(img/evermore.jpg);
+   background-position: center;
+   background-size: cover;
  
 }
 
 div#mid{
+    background-image: url(img/midnights.jpg);
+   background-position: center;
+   background-size: cover;
  
 }
 
 div#ttpd{
+    background-image: url(img/ttpd\ \(2\).jpg);
+   background-position: center;
+   background-size: cover;
 
+}
+
+article#mv{
+    height: 1050px;
+}
+
+p#txta{
+    text-align: center;
+    max-width: 550px;
+    padding: 10px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+        
+}
+
+img#capa{
+    display: none;
+    width: 60%;
+    height: 30%;
+    border-radius: 10px;
 }
 
