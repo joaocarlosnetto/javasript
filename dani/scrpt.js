@@ -9,11 +9,24 @@ var txt = document.getElementById('txta')
 
 var capa = document.getElementById('capa')
 
+var header = document.getElementById('header')
+
+
+function menu(){
+    var menu = document.getElementById('menu')
+    if(menu.style.display == 'none'){
+        menu.style.display = 'block'
+        menu.style.transition = '0.6s'
+    } else{
+        menu.style.display = 'none'
+    }
+}
+
 function debut(){
 
-    var h1 = document.getElementById('h1')
-    h1.style.color = 'black'
-    h1.style.transition = '0.8s'
+    header.style.background = '#a5c9a5'
+    header.style.color = 'black'
+    header.style.transition = '0.8s'
 
     art.style.transition = '0.8s'
 
@@ -59,25 +72,23 @@ function debut(){
 
     txt.innerHTML = 'Taylor Swift é o álbum de estreia homônimo da cantora e compositora estadunidense Taylor Swift, lançado através da Big Machine Records em 24 de outubro de 2006. O álbum conta com a produção de Nathan Chapman e Robert Ellis Orrall, e traz composições assinadas pela própria Swift em parceria com Liz Rose e os também produtores Orrall e Angelo Petraglia.'
     capa.style.display = 'block'
-    capa.src = 'img/debut.capa.jpg'
+    capa.style.backgroundImage = 'url(img/debut.capa.jpg)'
 
 }
 
  
 function fearless(){
     var f = document.getElementById('fearless')
-
-    var h1 = document.getElementById('h1')
-    h1.style.color = 'black'
-    h1.style.transition = '0.8s'
+    
+    header.style.background = '#f0ca95'
+    header.style.color = 'black'
+    header.style.transition = '0.8s'
     
     art.style.transition = '0.8s'
 
     var body = document.getElementById("body")
     body.style.backgroundColor = '#f0ca95'
     body.style.transition = '0.8s'
-
-    var music = document.getElementById('music')
 
     f.style.width = '30.5%'
     f.style.transition = '0.6s'
@@ -112,6 +123,9 @@ function fearless(){
     t.style.width = '7.2%'
     t.style.transition = '0.6s'
 
+    capa.style.display = 'block'
+    capa.style.backgroundImage = 'url(img/fearless.capa.png)'
+
     mv.style.backgroundColor = '#E8D7BE'
     mv.style.transition = '0.8s'
 }
@@ -120,17 +134,16 @@ function fearless(){
 function spn(){
     var s = document.getElementById('spn')
 
-    var h1 = document.getElementById('h1')
-    h1.style.color = 'white'
-    h1.style.transition = '0.8s'
+    header.style.background = '#c7a8cd'
+    header.style.color = 'black'
+    header.style.transition = '0.8s'
     
+
     art.style.transition = '0.8s'
 
     var body = document.getElementById("body")
     body.style.backgroundColor = '#c7a8cd'
     body.style.transition = '0.8s'
-    
-
 
     s.style.width = '30.5%'
     s.style.transition = '0.6s'
@@ -165,6 +178,9 @@ function spn(){
     t.style.width = '7.2%'
     t.style.transition = '0.6s'
 
+    capa.style.display = 'block'
+    capa.style.backgroundImage = 'url(img/speakNow.capa.png)'
+
     mv.style.backgroundColor = '#66406E'
     mv.style.transition = '0.8s'
 }
@@ -172,9 +188,9 @@ function spn(){
 function red(){
     var r = document.getElementById('red')
 
-    var h1 = document.getElementById('h1')
-    h1.style.color = 'white'
-    h1.style.transition = '0.8s'
+    header.style.background = '#884141'
+    header.style.color = 'white'
+    header.style.transition = '0.8s'
     
     art.style.transition = '0.8s'
 
@@ -216,6 +232,9 @@ function red(){
     t.style.width = '7.2%'
     t.style.transition = '0.6s'
 
+    capa.style.display = 'block'
+    capa.style.backgroundImage = 'url(img/red.capa.png)'
+
     mv.style.backgroundColor = '#e79283'
     mv.style.transition = '0.8s'
 }
@@ -224,9 +243,9 @@ function red(){
 function nine(){
     var n = document.getElementById('nine')
 
-    var h1 = document.getElementById('h1')
-    h1.style.color = 'black'
-    h1.style.transition = '0.8s'
+    header.style.background = '#bbe0ee'
+    header.style.color = 'black'
+    header.style.transition = '0.8s'
    
     art.style.transition = '0.8s'
 
@@ -268,6 +287,9 @@ function nine(){
     t.style.width = '7.2%'
     t.style.transition = '0.6s'
 
+    capa.style.display = 'block'
+    capa.style.backgroundImage = 'url(img/nine.capa.png)'
+
     mv.style.backgroundColor = '#527987'
     mv.style.transition = '0.8s'
 }
@@ -276,9 +298,9 @@ function nine(){
 function rep(){
     var rp = document.getElementById('rep')
 
-    var h1 = document.getElementById('h1')
-    h1.style.color = 'white'
-    h1.style.transition = '0.8s'
+    header.style.background = '#424242'
+    header.style.color = 'white'
+    header.style.transition = '0.8s'
     
     art.style.transition = '0.8s'
 
@@ -319,6 +341,9 @@ function rep(){
     t.style.width = '7.2%'
     t.style.transition = '0.6s'
 
+    capa.style.display = 'block'
+    capa.style.backgroundImage = 'url(img/reputation.capa.png)'
+
     mv.style.backgroundColor = '#A3A3A3'
     mv.style.transition = '0.8s'
 }
@@ -327,9 +352,9 @@ function rep(){
 function lover(){
     var l = document.getElementById('lover')
 
-    var h1 = document.getElementById('h1')
-    h1.style.color = 'black'
-    h1.style.transition = '0.8s'
+    header.style.background = '#f3bcd2'
+    header.style.color = 'black'
+    header.style.transition = '0.8s'
     
     art.style.transition = '0.8s'
 
@@ -371,6 +396,9 @@ function lover(){
     t.style.width = '7.2%'
     t.style.transition = '0.6s'
 
+    capa.style.display = 'block'
+    capa.style.backgroundImage = 'url(img/lover.capa.png)'
+
     mv.style.backgroundColor = '#8C586D'
     mv.style.transition = '0.8s'
 }
@@ -379,17 +407,15 @@ function lover(){
 function folk(){
     var fk = document.getElementById('folk')
 
-    var h1 = document.getElementById('h1')
-    h1.style.color = 'black'
-    h1.style.transition = '0.8s'
-    
+    header.style.background = '#979797'
+    header.style.color = 'black'
+    header.style.transition = '0.8s'
+
     art.style.transition = '0.8s'
 
     var body = document.getElementById("body")
     body.style.backgroundColor = '#979797'
     body.style.transition = '0.8s'
-
-
 
     fk.style.width = '30.5%'
     fk.style.transition = '0.6s'
@@ -424,6 +450,9 @@ function folk(){
     t.style.width = '7.2%'
     t.style.transition = '0.6s'
 
+    capa.style.display = 'block'
+    capa.style.backgroundImage = 'url(img/folklore.capa.png)'
+
     mv.style.backgroundColor = '#D9D9D9'
     mv.style.transition = '0.8s'
 }
@@ -431,10 +460,10 @@ function folk(){
 function ever(){
     var e = document.getElementById('ever')
 
-    var h1 = document.getElementById('h1')
-    h1.style.color = 'black'
-    h1.style.transition = '0.8s'
-    
+    header.style.background = '#c5ac90'
+    header.style.color = 'black'
+    header.style.transition = '0.8s'
+
     art.style.transition = '0.8s'
 
     var body = document.getElementById("body")
@@ -475,6 +504,9 @@ function ever(){
     t.style.width = '7.2%'
     t.style.transition = '0.6s'
 
+    capa.style.display = 'block'
+    capa.style.backgroundImage = 'url(img/evermore.capa.png)'
+
     mv.style.backgroundColor = '#4D2C1C'
     mv.style.transition = '0.8s'
 }
@@ -482,16 +514,15 @@ function ever(){
 function mid(){
     var m = document.getElementById('mid')
 
-    var h1 = document.getElementById('h1')
-    h1.style.color = 'white'
-    h1.style.transition = '0.8s'
+    header.style.background = '#242e47'
+    header.style.color = 'white'
+    header.style.transition = '0.8s'
     
     art.style.transition = '0.8s'
 
     var body = document.getElementById("body")
     body.style.backgroundColor = '#242e47'
     body.style.transition = '0.8s'
-
 
     m.style.width = '30.5%'
     m.style.transition = '0.6s'
@@ -526,6 +557,9 @@ function mid(){
     t.style.width = '7.2%'
     t.style.transition = '0.6s'
 
+    capa.style.display = 'block'
+    capa.style.backgroundImage = 'url(img/midnights.capa.png)'
+
     mv.style.backgroundColor = '#9AA0AD'
     mv.style.transition = '0.8s'
 }
@@ -533,9 +567,9 @@ function mid(){
 function ttpd(){
     var t = document.getElementById('ttpd')
 
-    var h1 = document.getElementById('h1')
-    h1.style.color = 'black'
-    h1.style.transition = '0.8s'
+    header.style.background = '#cccccc'
+    header.style.color = 'black'
+    header.style.transition = '0.8s'
     
     art.style.transition = '0.8s'
     
@@ -576,6 +610,9 @@ function ttpd(){
     var f = document.getElementById('fearless')
     f.style.width = '7.2%'
     f.style.transition = '0.6s'
+
+    capa.style.display = 'block'
+    capa.style.backgroundImage = 'url(img/ttpd.jpg)'
 
     mv.style.backgroundColor = '#808080'
     mv.style.transition = '0.8s'
