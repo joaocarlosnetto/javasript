@@ -1,738 +1,619 @@
 
 var art = document.getElementById('art')
-art.style.marginLeft = '200px'
+
+var d = document.getElementById('debut')
+
+var mv = document.getElementById('mv')
+
+var txt = document.getElementById('txta')
+
+var capa = document.getElementById('capa')
+
+var header = document.getElementById('header')
+
+
+function menu(){
+    var menu = document.getElementById('menu')
+    if(menu.style.display == 'none'){
+        menu.style.display = 'block'
+        menu.style.transition = '0.6s'
+    } else{
+        menu.style.display = 'none'
+    }
+}
 
 function debut(){
 
-    art.style.marginLeft = '8px'
-    art.style.transition = '0.6s'
+    header.style.background = '#a5c9a5'
+    header.style.color = 'black'
+    header.style.transition = '0.8s'
 
-var music = document.getElementById('music')
-    music.style.background = '#a5c9a5'
-    music.style.transition = '0.6s'
+    art.style.transition = '0.8s'
 
-var d = document.getElementById('debut')
-    d.style.width = '400px'
+    var body = document.getElementById("body")
+    body.style.backgroundColor = '#a5c9a5'
+    body.style.transition = '0.8s'
+
+    d.style.width = '30.5%'
     d.style.transition = '0.6s'
     var f = document.getElementById('fearless')
-    f.style.width = '95.4px'
+    f.style.width = '7.2%'
     f.style.transition = '0.6s'
     var s = document.getElementById('spn')
-    s.style.width = '95.4px'
+    s.style.width = '7.2%'
     s.style.transition = '0.6s'
     var r = document.getElementById('red')
-    r.style.width = '95.4px'
+    r.style.width = '7.2%'
     r.style.transition = '0.6s'
     var n = document.getElementById('nine')
-    n.style.width = '95.4px'
+    n.style.width = '7.2%'
     n.style.transition = '0.6s'
     var rp = document.getElementById('rep')
-    rp.style.width = '95.4px'
+    rp.style.width = '7.2%'
     rp.style.transition = '0.6s'
     var l = document.getElementById('lover')
-    l.style.width = '95.4px'
+    l.style.width = '7.2%'
     l.style.transition = '0.6s'
     var fk = document.getElementById('folk')
-    fk.style.width = '95.4px'
+    fk.style.width = '7.2%'
     fk.style.transition = '0.6s'
     var e = document.getElementById('ever')
-    e.style.width = '95.4px'
+    e.style.width = '7.2%'
     e.style.transition = '0.6s'
     var m = document.getElementById('mid')
-    m.style.width = '95.4px'
+    m.style.width = '7.2%'
     m.style.transition = '0.6s'
     var t = document.getElementById('ttpd')
-    t.style.width = '95.4px'
+    t.style.width = '7.2%'
     t.style.transition = '0.6s'
-    var idebut = document.getElementById('idebut')
-    idebut.style.transform = 'scale(1.1)'
-    idebut.style.transition = '0.5s'
-    var ifea = document.getElementById('ifea')
-    ifea.style.transform = 'scale(1.0)'
-    var ispn = document.getElementById('ispn')
-    ispn.style.transform = 'scale(1.0)'
-    var ired = document.getElementById('ired')
-    ired.style.transform = 'scale(1.0)'
-    var inine = document.getElementById('inine')
-    inine.style.transform = 'scale(1.0)'
-    var irep = document.getElementById('irep')
-    irep.style.transform = 'scale(1.0)'
-    var ilover = document.getElementById('ilover')
-    ilover.style.transform = 'scale(1.0)'
-    var ifolk = document.getElementById('ifolk')
-    ifolk.style.transform = 'scale(1.0)'
-    var iever = document.getElementById('iever')
-    iever.style.transform = 'scale(1.0)'
-    var imid = document.getElementById('imid')
-    imid.style.transform = 'scale(1.0)'
-    var ittpd = document.getElementById('ittpd')
-    ittpd.style.transform = 'scale(1.0)'
+
+    mv.style.backgroundColor = '#3A633A'
+    mv.style.transition = '0.8s'
+
+    txt.innerHTML = 'Taylor Swift é o álbum de estreia homônimo da cantora e compositora estadunidense Taylor Swift, lançado através da Big Machine Records em 24 de outubro de 2006. O álbum conta com a produção de Nathan Chapman e Robert Ellis Orrall, e traz composições assinadas pela própria Swift em parceria com Liz Rose e os também produtores Orrall e Angelo Petraglia.'
+    capa.style.display = 'block'
+    capa.style.backgroundImage = 'url(img/debut.capa.jpg)'
+
 }
 
  
 function fearless(){
     var f = document.getElementById('fearless')
-    f.style.width = '400px'
+    
+    header.style.background = '#f0ca95'
+    header.style.color = 'black'
+    header.style.transition = '0.8s'
+    
+    art.style.transition = '0.8s'
+
+    var body = document.getElementById("body")
+    body.style.backgroundColor = '#f0ca95'
+    body.style.transition = '0.8s'
+
+    f.style.width = '30.5%'
     f.style.transition = '0.6s'
-
-    art.style.marginLeft = '8px'
-    art.style.transition = '0.6s'
-
-var music = document.getElementById('music')
-    music.style.background = '#efc180'
-    music.style.transition = '0.6s'
-
     var d = document.getElementById('debut')
-    d.style.width = '95.4px'
+    d.style.width = '7.2%'
     d.style.transition = '0.6s'
     var s = document.getElementById('spn')
-    s.style.width = '95.4px'
+    s.style.width = '7.2%'
     s.style.transition = '0.6s'
     var r = document.getElementById('red')
-    r.style.width = '95.4px'
+    r.style.width = '7.2%'
     r.style.transition = '0.6s'
     var n = document.getElementById('nine')
-    n.style.width = '95.4px'
+    n.style.width = '7.2%'
     n.style.transition = '0.6s'
     var rp = document.getElementById('rep')
-    rp.style.width = '95.4px'
+    rp.style.width = '7.2%'
     rp.style.transition = '0.6s'
     var l = document.getElementById('lover')
-    l.style.width = '95.4px'
+    l.style.width = '7.2%'
     l.style.transition = '0.6s'
     var fk = document.getElementById('folk')
-    fk.style.width = '95.4px'
+    fk.style.width = '7.2%'
     fk.style.transition = '0.6s'
     var e = document.getElementById('ever')
-    e.style.width = '95.4px'
+    e.style.width = '7.2%'
     e.style.transition = '0.6s'
     var m = document.getElementById('mid')
-    m.style.width = '95.4px'
+    m.style.width = '7.2%'
     m.style.transition = '0.6s'
     var t = document.getElementById('ttpd')
-    t.style.width = '95.4px'
+    t.style.width = '7.2%'
     t.style.transition = '0.6s'
-    var ifea = document.getElementById('ifea')
-    ifea.style.transform = 'scale(1.1)'
-    ifea.style.transition = '0.5s'
-    var idebut = document.getElementById('idebut')
-    idebut.style.transform = 'scale(1.0)'
-    var ispn = document.getElementById('ispn')
-    ispn.style.transform = 'scale(1.0)'
-    var ired = document.getElementById('ired')
-    ired.style.transform = 'scale(1.0)'
-    var inine = document.getElementById('inine')
-    inine.style.transform = 'scale(1.0)'
-    var irep = document.getElementById('irep')
-    irep.style.transform = 'scale(1.0)'
-    var ilover = document.getElementById('ilover')
-    ilover.style.transform = 'scale(1.0)'
-    var ifolk = document.getElementById('ifolk')
-    ifolk.style.transform = 'scale(1.0)'
-    var iever = document.getElementById('iever')
-    iever.style.transform = 'scale(1.0)'
-    var imid = document.getElementById('imid')
-    imid.style.transform = 'scale(1.0)'
-    var ittpd = document.getElementById('ittpd')
-    ittpd.style.transform = 'scale(1.0)'
+
+    capa.style.display = 'block'
+    capa.style.backgroundImage = 'url(img/fearless.capa.png)'
+
+    mv.style.backgroundColor = '#E8D7BE'
+    mv.style.transition = '0.8s'
 }
 
 
 function spn(){
     var s = document.getElementById('spn')
-    s.style.width = '400px'
+
+    header.style.background = '#c7a8cd'
+    header.style.color = 'black'
+    header.style.transition = '0.8s'
+    
+
+    art.style.transition = '0.8s'
+
+    var body = document.getElementById("body")
+    body.style.backgroundColor = '#c7a8cd'
+    body.style.transition = '0.8s'
+
+    s.style.width = '30.5%'
     s.style.transition = '0.6s'
-    art.style.marginLeft = '8px'
-    art.style.transition = '0.6s'
-
-    var music = document.getElementById('music')
-    music.style.background = '#c7a8cd'
-    music.style.transition = '0.6s'
-
     var f = document.getElementById('fearless')
-    f.style.width = '95.4px'
+    f.style.width = '7.2%'
     f.style.transition = '0.6s'
     var d = document.getElementById('debut')
-    d.style.width = '95.4px'
+    d.style.width = '7.2%'
     d.style.transition = '0.6s'
     var r = document.getElementById('red')
-    r.style.width = '95.4px'
+    r.style.width = '7.2%'
     r.style.transition = '0.6s'
     var n = document.getElementById('nine')
-    n.style.width = '95.4px'
+    n.style.width = '7.2%'
     n.style.transition = '0.6s'
     var rp = document.getElementById('rep')
-    rp.style.width = '95.4px'
+    rp.style.width = '7.2%'
     rp.style.transition = '0.6s'
     var l = document.getElementById('lover')
-    l.style.width = '95.4px'
+    l.style.width = '7.2%'
     l.style.transition = '0.6s'
     var fk = document.getElementById('folk')
-    fk.style.width = '95.4px'
+    fk.style.width = '7.2%'
     fk.style.transition = '0.6s'
     var e = document.getElementById('ever')
-    e.style.width = '95.4px'
+    e.style.width = '7.2%'
     e.style.transition = '0.6s'
     var m = document.getElementById('mid')
-    m.style.width = '95.4px'
+    m.style.width = '7.2%'
     m.style.transition = '0.6s'
     var t = document.getElementById('ttpd')
-    t.style.width = '95.4px'
+    t.style.width = '7.2%'
     t.style.transition = '0.6s'
-    var ispn = document.getElementById('ispn')
-    ispn.style.transform = 'scale(1.1)'
-    ispn.style.transition = '0.5s'
-    var idebut = document.getElementById('idebut')
-    idebut.style.transform = 'scale(1.0)'
-    var ispn = document.getElementById('ifea')
-    ifea.style.transform = 'scale(1.0)'
-    var ired = document.getElementById('ired')
-    ired.style.transform = 'scale(1.0)'
-    var inine = document.getElementById('inine')
-    inine.style.transform = 'scale(1.0)'
-    var irep = document.getElementById('irep')
-    irep.style.transform = 'scale(1.0)'
-    var ilover = document.getElementById('ilover')
-    ilover.style.transform = 'scale(1.0)'
-    var ifolk = document.getElementById('ifolk')
-    ifolk.style.transform = 'scale(1.0)'
-    var iever = document.getElementById('iever')
-    iever.style.transform = 'scale(1.0)'
-    var imid = document.getElementById('imid')
-    imid.style.transform = 'scale(1.0)'
-    var ittpd = document.getElementById('ittpd')
-    ittpd.style.transform = 'scale(1.0)'
-    
+
+    capa.style.display = 'block'
+    capa.style.backgroundImage = 'url(img/speakNow.capa.png)'
+
+    mv.style.backgroundColor = '#66406E'
+    mv.style.transition = '0.8s'
 }
 
 function red(){
     var r = document.getElementById('red')
-    r.style.width = '400px'
+
+    header.style.background = '#884141'
+    header.style.color = 'white'
+    header.style.transition = '0.8s'
+    
+    art.style.transition = '0.8s'
+
+    var body = document.getElementById("body")
+    body.style.backgroundColor = '#884141'
+    body.style.transition = '0.8s'
+
+
+    r.style.width = '30.5%'
     r.style.transition = '0.6s'
-    art.style.marginLeft = '8px'
-    art.style.transition = '0.6s'
-
-    var music = document.getElementById('music')
-    music.style.background = '#7a2e39'
-    music.style.transition = '0.6s'
-
-    var f = document.getElementById('fearless')
-    f.style.width = '95.4px'
-    f.style.transition = '0.6s'
-    var s = document.getElementById('spn')
-    s.style.width = '95.4px'
-    s.style.transition = '0.6s'
     var d = document.getElementById('debut')
-    d.style.width = '95.4px'
+    d.style.width = '7.2%'
     d.style.transition = '0.6s'
+    var s = document.getElementById('spn')
+    s.style.width = '7.2%'
+    s.style.transition = '0.6s'
+    var f = document.getElementById('fearless')
+    f.style.width = '7.2%'
+    f.style.transition = '0.6s'
     var n = document.getElementById('nine')
-    n.style.width = '95.4px'
+    n.style.width = '7.2%'
     n.style.transition = '0.6s'
     var rp = document.getElementById('rep')
-    rp.style.width = '95.4px'
+    rp.style.width = '7.2%'
     rp.style.transition = '0.6s'
     var l = document.getElementById('lover')
-    l.style.width = '95.4px'
+    l.style.width = '7.2%'
     l.style.transition = '0.6s'
     var fk = document.getElementById('folk')
-    fk.style.width = '95.4px'
+    fk.style.width = '7.2%'
     fk.style.transition = '0.6s'
     var e = document.getElementById('ever')
-    e.style.width = '95.4px'
+    e.style.width = '7.2%'
     e.style.transition = '0.6s'
     var m = document.getElementById('mid')
-    m.style.width = '95.4px'
+    m.style.width = '7.2%'
     m.style.transition = '0.6s'
     var t = document.getElementById('ttpd')
-    t.style.width = '95.4px'
-    t.style.transition = '0.8s'
-    var ired= document.getElementById('ired')
-    ired.style.transform = 'scale(1.1)'
-    ired.style.transition = '0.8s'
-    var idebut = document.getElementById('idebut')
-    idebut.style.transform = 'scale(1.0)'
-    var ispn = document.getElementById('ispn')
-    ispn.style.transform = 'scale(1.0)'
-    var ifea = document.getElementById('ifea')
-    ifea.style.transform = 'scale(1.0)'
-    var inine = document.getElementById('inine')
-    inine.style.transform = 'scale(1.0)'
-    var irep = document.getElementById('irep')
-    irep.style.transform = 'scale(1.0)'
-    var ilover = document.getElementById('ilover')
-    ilover.style.transform = 'scale(1.0)'
-    var ifolk = document.getElementById('ifolk')
-    ifolk.style.transform = 'scale(1.0)'
-    var iever = document.getElementById('iever')
-    iever.style.transform = 'scale(1.0)'
-    var imid = document.getElementById('imid')
-    imid.style.transform = 'scale(1.0)'
-    var ittpd = document.getElementById('ittpd')
-    ittpd.style.transform = 'scale(1.0)'
+    t.style.width = '7.2%'
+    t.style.transition = '0.6s'
+
+    capa.style.display = 'block'
+    capa.style.backgroundImage = 'url(img/red.capa.png)'
+
+    mv.style.backgroundColor = '#e79283'
+    mv.style.transition = '0.8s'
 }
 
 
 function nine(){
     var n = document.getElementById('nine')
-    n.style.width = '400px'
-    n.style.transition = '0.8s'
-    art.style.marginLeft = '8px'
+
+    header.style.background = '#bbe0ee'
+    header.style.color = 'black'
+    header.style.transition = '0.8s'
+   
     art.style.transition = '0.8s'
 
-    var music = document.getElementById('music')
-    music.style.background = '#b5e5f8'
-    music.style.transition = '0.8s'
+    var body = document.getElementById("body")
+    body.style.backgroundColor = '#bbe0ee'
+    body.style.transition = '0.8s'
 
+
+    n.style.width = '30.5%'
+    n.style.transition = '0.6s'
     var f = document.getElementById('fearless')
-    f.style.width = '95.4px'
-    f.style.transition = '0.8s'
+    f.style.width = '7.2%'
+    f.style.transition = '0.6s'
     var s = document.getElementById('spn')
-    s.style.width = '95.4px'
-    s.style.transition = '0.8s'
+    s.style.width = '7.2%'
+    s.style.transition = '0.6s'
     var r = document.getElementById('red')
-    r.style.width = '95.4px'
-    r.style.transition = '0.8s'
+    r.style.width = '7.2%'
+    r.style.transition = '0.6s'
     var d = document.getElementById('debut')
-    d.style.width = '95.4px'
-    d.style.transition = '0.8s'
+    d.style.width = '7.2%'
+    d.style.transition = '0.6s'
     var rp = document.getElementById('rep')
-    rp.style.width = '95.4px'
-    rp.style.transition = '0.8s'
+    rp.style.width = '7.2%'
+    rp.style.transition = '0.6s'
     var l = document.getElementById('lover')
-    l.style.width = '95.4px'
-    l.style.transition = '0.8s'
+    l.style.width = '7.2%'
+    l.style.transition = '0.6s'
     var fk = document.getElementById('folk')
-    fk.style.width = '95.4px'
-    fk.style.transition = '0.8s'
+    fk.style.width = '7.2%'
+    fk.style.transition = '0.6s'
     var e = document.getElementById('ever')
-    e.style.width = '95.4px'
-    e.style.transition = '0.8s'
+    e.style.width = '7.2%'
+    e.style.transition = '0.6s'
     var m = document.getElementById('mid')
-    m.style.width = '95.4px'
-    m.style.transition = '0.8s'
+    m.style.width = '7.2%'
+    m.style.transition = '0.6s'
     var t = document.getElementById('ttpd')
-    t.style.width = '95.4px'
-    t.style.transition = '0.8s'
-    var inine = document.getElementById('inine')
-    inine.style.transform = 'scale(1.1)'
-    inine.style.transition = '0.8s'
-    var idebut = document.getElementById('idebut')
-    idebut.style.transform = 'scale(1.0)'
-    var ispn = document.getElementById('ispn')
-    ispn.style.transform = 'scale(1.0)'
-    var ired = document.getElementById('ired')
-    ired.style.transform = 'scale(1.0)'
-    var ifea = document.getElementById('ifea')
-    ifea.style.transform = 'scale(1.0)'
-    var irep = document.getElementById('irep')
-    irep.style.transform = 'scale(1.0)'
-    var ilover = document.getElementById('ilover')
-    ilover.style.transform = 'scale(1.0)'
-    var ifolk = document.getElementById('ifolk')
-    ifolk.style.transform = 'scale(1.0)'
-    var iever = document.getElementById('iever')
-    iever.style.transform = 'scale(1.0)'
-    var imid = document.getElementById('imid')
-    imid.style.transform = 'scale(1.0)'
-    var ittpd = document.getElementById('ittpd')
-    ittpd.style.transform = 'scale(1.0)'
+    t.style.width = '7.2%'
+    t.style.transition = '0.6s'
+
+    capa.style.display = 'block'
+    capa.style.backgroundImage = 'url(img/nine.capa.png)'
+
+    mv.style.backgroundColor = '#527987'
+    mv.style.transition = '0.8s'
 }
 
 
 function rep(){
     var rp = document.getElementById('rep')
-    rp.style.width = '400px'
-    rp.style.transition = '0.8s'
-    art.style.marginLeft = '8px'
+
+    header.style.background = '#424242'
+    header.style.color = 'white'
+    header.style.transition = '0.8s'
+    
     art.style.transition = '0.8s'
 
-    var music = document.getElementById('music')
-    music.style.background = '#424242'
-    music.style.transition = '0.8s'
+    var body = document.getElementById("body")
+    body.style.backgroundColor = '#424242'
+    body.style.transition = '0.8s'
 
+    rp.style.width = '30.5%'
+    rp.style.transition = '0.6s'
     var f = document.getElementById('fearless')
-    f.style.width = '95.4px'
-    f.style.transition = '0.8s'
+    f.style.width = '7.2%'
+    f.style.transition = '0.6s'
     var s = document.getElementById('spn')
-    s.style.width = '95.4px'
-    s.style.transition = '0.8s'
+    s.style.width = '7.2%'
+    s.style.transition = '0.6s'
     var r = document.getElementById('red')
-    r.style.width = '95.4px'
-    r.style.transition = '0.8s'
+    r.style.width = '7.2%'
+    r.style.transition = '0.6s'
     var n = document.getElementById('nine')
-    n.style.width = '95.4px'
-    n.style.transition = '0.8s'
+    n.style.width = '7.2%'
+    n.style.transition = '0.6s'
     var d = document.getElementById('debut')
-    d.style.width = '95.4px'
-    d.style.transition = '0.8s'
+    d.style.width = '7.2%'
+    d.style.transition = '0.6s'
     var l = document.getElementById('lover')
-    l.style.width = '95.4px'
-    l.style.transition = '0.8s'
+    l.style.width = '7.2%'
+    l.style.transition = '0.6s'
     var fk = document.getElementById('folk')
-    fk.style.width = '95.4px'
-    fk.style.transition = '0.8s'
+    fk.style.width = '7.2%'
+    fk.style.transition = '0.6s'
     var e = document.getElementById('ever')
-    e.style.width = '95.4px'
-    e.style.transition = '0.8s'
+    e.style.width = '7.2%'
+    e.style.transition = '0.6s'
     var m = document.getElementById('mid')
-    m.style.width = '95.4px'
-    m.style.transition = '0.8s'
+    m.style.width = '7.2%'
+    m.style.transition = '0.6s'
     var t = document.getElementById('ttpd')
-    t.style.width = '95.4px'
-    t.style.transition = '0.8s'
-    var irep = document.getElementById('irep')
-    irep.style.transform = 'scale(1.1)'
-    irep.style.transition = '0.8s'
-    var idebut = document.getElementById('idebut')
-    idebut.style.transform = 'scale(1.0)'
-    var ispn = document.getElementById('ispn')
-    ispn.style.transform = 'scale(1.0)'
-    var ired = document.getElementById('ired')
-    ired.style.transform = 'scale(1.0)'
-    var inine = document.getElementById('inine')
-    inine.style.transform = 'scale(1.0)'
-    var ifea = document.getElementById('ifea')
-    ifea.style.transform = 'scale(1.0)'
-    var ilover = document.getElementById('ilover')
-    ilover.style.transform = 'scale(1.0)'
-    var ifolk = document.getElementById('ifolk')
-    ifolk.style.transform = 'scale(1.0)'
-    var iever = document.getElementById('iever')
-    iever.style.transform = 'scale(1.0)'
-    var imid = document.getElementById('imid')
-    imid.style.transform = 'scale(1.0)'
-    var ittpd = document.getElementById('ittpd')
-    ittpd.style.transform = 'scale(1.0)'
+    t.style.width = '7.2%'
+    t.style.transition = '0.6s'
+
+    capa.style.display = 'block'
+    capa.style.backgroundImage = 'url(img/reputation.capa.png)'
+
+    mv.style.backgroundColor = '#A3A3A3'
+    mv.style.transition = '0.8s'
 }
 
 
 function lover(){
     var l = document.getElementById('lover')
-    l.style.width = '400px'
-    l.style.transition = '0.8s'
-    art.style.marginLeft = '8px'
+
+    header.style.background = '#f3bcd2'
+    header.style.color = 'black'
+    header.style.transition = '0.8s'
+    
     art.style.transition = '0.8s'
 
-    var music = document.getElementById('music')
-    music.style.background = '#f7b0cc'
-    music.style.transition = '0.8s'
+    var body = document.getElementById("body")
+    body.style.backgroundColor = '#f3bcd2'
+    body.style.transition = '0.8s'
 
-    var f = document.getElementById('fearless')
-    f.style.width = '95.4px'
-    f.style.transition = '0.8s'
-    var s = document.getElementById('spn')
-    s.style.width = '95.4px'
-    s.style.transition = '0.8s'
-    var r = document.getElementById('red')
-    r.style.width = '95.4px'
-    r.style.transition = '0.8s'
-    var n = document.getElementById('nine')
-    n.style.width = '95.4px'
-    n.style.transition = '0.8s'
-    var rp = document.getElementById('rep')
-    rp.style.width = '95.4px'
-    rp.style.transition = '0.8s'
+
+    l.style.width = '30.5%'
+    l.style.transition = '0.6s'
     var d = document.getElementById('debut')
-    d.style.width = '95.4px'
-    d.style.transition = '0.8s'
+    d.style.width = '7.2%'
+    d.style.transition = '0.6s'
+    var s = document.getElementById('spn')
+    s.style.width = '7.2%'
+    s.style.transition = '0.6s'
+    var r = document.getElementById('red')
+    r.style.width = '7.2%'
+    r.style.transition = '0.6s'
+    var n = document.getElementById('nine')
+    n.style.width = '7.2%'
+    n.style.transition = '0.6s'
+    var rp = document.getElementById('rep')
+    rp.style.width = '7.2%'
+    rp.style.transition = '0.6s'
+    var f = document.getElementById('fearless')
+    f.style.width = '7.2%'
+    f.style.transition = '0.6s'
     var fk = document.getElementById('folk')
-    fk.style.width = '95.4px'
-    fk.style.transition = '0.8s'
+    fk.style.width = '7.2%'
+    fk.style.transition = '0.6s'
     var e = document.getElementById('ever')
-    e.style.width = '95.4px'
-    e.style.transition = '0.8s'
+    e.style.width = '7.2%'
+    e.style.transition = '0.6s'
     var m = document.getElementById('mid')
-    m.style.width = '95.4px'
-    m.style.transition = '0.8s'
+    m.style.width = '7.2%'
+    m.style.transition = '0.6s'
     var t = document.getElementById('ttpd')
-    t.style.width = '95.4px'
-    t.style.transition = '0.8s'
-    var ilover = document.getElementById('ilover')
-    ilover.style.transform = 'scale(1.1)'
-    ilover.style.transition = '0.8s'
-    var idebut = document.getElementById('idebut')
-    idebut.style.transform = 'scale(1.0)'
-    var ispn = document.getElementById('ispn')
-    ispn.style.transform = 'scale(1.0)'
-    var ired = document.getElementById('ired')
-    ired.style.transform = 'scale(1.0)'
-    var inine = document.getElementById('inine')
-    inine.style.transform = 'scale(1.0)'
-    var irep = document.getElementById('irep')
-    irep.style.transform = 'scale(1.0)'
-    var ifea = document.getElementById('ifea')
-    ifea.style.transform = 'scale(1.0)'
-    var ifolk = document.getElementById('ifolk')
-    ifolk.style.transform = 'scale(1.0)'
-    var iever = document.getElementById('iever')
-    iever.style.transform = 'scale(1.0)'
-    var imid = document.getElementById('imid')
-    imid.style.transform = 'scale(1.0)'
-    var ittpd = document.getElementById('ittpd')
-    ittpd.style.transform = 'scale(1.0)'
+    t.style.width = '7.2%'
+    t.style.transition = '0.6s'
+
+    capa.style.display = 'block'
+    capa.style.backgroundImage = 'url(img/lover.capa.png)'
+
+    mv.style.backgroundColor = '#8C586D'
+    mv.style.transition = '0.8s'
 }
 
 
 function folk(){
     var fk = document.getElementById('folk')
-    fk.style.width = '400px'
-    fk.style.transition = '0.8s'
-    art.style.marginLeft = '8px'
+
+    header.style.background = '#979797'
+    header.style.color = 'black'
+    header.style.transition = '0.8s'
+
     art.style.transition = '0.8s'
 
-    var music = document.getElementById('music')
-    music.style.background = '#979797'
-    music.style.transition = '0.8s'
+    var body = document.getElementById("body")
+    body.style.backgroundColor = '#979797'
+    body.style.transition = '0.8s'
 
-    var f = document.getElementById('fearless')
-    f.style.width = '95.4px'
-    f.style.transition = '0.8s'
-    var s = document.getElementById('spn')
-    s.style.width = '95.4px'
-    s.style.transition = '0.8s'
-    var r = document.getElementById('red')
-    r.style.width = '95.4px'
-    r.style.transition = '0.8s'
-    var n = document.getElementById('nine')
-    n.style.width = '95.4px'
-    n.style.transition = '0.8s'
-    var rp = document.getElementById('rep')
-    rp.style.width = '95.4px'
-    rp.style.transition = '0.8s'
-    var l = document.getElementById('lover')
-    l.style.width = '95.4px'
-    l.style.transition = '0.8s'
+    fk.style.width = '30.5%'
+    fk.style.transition = '0.6s'
     var d = document.getElementById('debut')
-    d.style.width = '95.4px'
-    d.style.transition = '0.8s'
+    d.style.width = '7.2%'
+    d.style.transition = '0.6s'
+    var s = document.getElementById('spn')
+    s.style.width = '7.2%'
+    s.style.transition = '0.6s'
+    var r = document.getElementById('red')
+    r.style.width = '7.2%'
+    r.style.transition = '0.6s'
+    var n = document.getElementById('nine')
+    n.style.width = '7.2%'
+    n.style.transition = '0.6s'
+    var rp = document.getElementById('rep')
+    rp.style.width = '7.2%'
+    rp.style.transition = '0.6s'
+    var l = document.getElementById('lover')
+    l.style.width = '7.2%'
+    l.style.transition = '0.6s'
+    var f = document.getElementById('fearless')
+    f.style.width = '7.2%'
+    f.style.transition = '0.6s'
     var e = document.getElementById('ever')
-    e.style.width = '95.4px'
-    e.style.transition = '0.8s'
+    e.style.width = '7.2%'
+    e.style.transition = '0.6s'
     var m = document.getElementById('mid')
-    m.style.width = '95.4px'
-    m.style.transition = '0.8s'
+    m.style.width = '7.2%'
+    m.style.transition = '0.6s'
     var t = document.getElementById('ttpd')
-    t.style.width = '95.4px'
-    t.style.transition = '0.8s'
-    var ifolk = document.getElementById('ifolk')
-    ifolk.style.transform = 'scale(1.1)'
-    ifolk.style.transition = '0.5s'
-    var idebut = document.getElementById('idebut')
-    idebut.style.transform = 'scale(1.0)'
-    var ispn = document.getElementById('ispn')
-    ispn.style.transform = 'scale(1.0)'
-    var ired = document.getElementById('ired')
-    ired.style.transform = 'scale(1.0)'
-    var inine = document.getElementById('inine')
-    inine.style.transform = 'scale(1.0)'
-    var irep = document.getElementById('irep')
-    irep.style.transform = 'scale(1.0)'
-    var ilover = document.getElementById('ilover')
-    ilover.style.transform = 'scale(1.0)'
-    var ifea = document.getElementById('ifea')
-    ifea.style.transform = 'scale(1.0)'
-    var iever = document.getElementById('iever')
-    iever.style.transform = 'scale(1.0)'
-    var imid = document.getElementById('imid')
-    imid.style.transform = 'scale(1.0)'
-    var ittpd = document.getElementById('ittpd')
-    ittpd.style.transform = 'scale(1.0)'
+    t.style.width = '7.2%'
+    t.style.transition = '0.6s'
+
+    capa.style.display = 'block'
+    capa.style.backgroundImage = 'url(img/folklore.capa.png)'
+
+    mv.style.backgroundColor = '#D9D9D9'
+    mv.style.transition = '0.8s'
 }
 
 function ever(){
     var e = document.getElementById('ever')
-    e.style.width = '400px'
-    e.style.transition = '0.8s'
-    art.style.marginLeft = '8px'
+
+    header.style.background = '#c5ac90'
+    header.style.color = 'black'
+    header.style.transition = '0.8s'
+
     art.style.transition = '0.8s'
 
-    var music = document.getElementById('music')
-    music.style.background = '#c5ac90'
-    music.style.transition = '0.8s'
+    var body = document.getElementById("body")
+    body.style.backgroundColor = '#c5ac90'
+    body.style.transition = '0.8s'
 
-    var f = document.getElementById('fearless')
-    f.style.width = '95.4px'
-    f.style.transition = '0.8s'
-    var s = document.getElementById('spn')
-    s.style.width = '95.4px'
-    s.style.transition = '0.8s'
-    var r = document.getElementById('red')
-    r.style.width = '95.4px'
-    r.style.transition = '0.8s'
-    var n = document.getElementById('nine')
-    n.style.width = '95.4px'
-    n.style.transition = '0.8s'
-    var rp = document.getElementById('rep')
-    rp.style.width = '95.4px'
-    rp.style.transition = '0.8s'
-    var l = document.getElementById('lover')
-    l.style.width = '95.4px'
-    l.style.transition = '0.8s'
-    var fk = document.getElementById('folk')
-    fk.style.width = '95.4px'
-    fk.style.transition = '0.8s'
+
+    e.style.width = '30.5%'
+    e.style.transition = '0.6s'
     var d = document.getElementById('debut')
-    d.style.width = '95.4px'
-    d.style.transition = '0.8s'
+    d.style.width = '7.2%'
+    d.style.transition = '0.6s'
+    var s = document.getElementById('spn')
+    s.style.width = '7.2%'
+    s.style.transition = '0.6s'
+    var r = document.getElementById('red')
+    r.style.width = '7.2%'
+    r.style.transition = '0.6s'
+    var n = document.getElementById('nine')
+    n.style.width = '7.2%'
+    n.style.transition = '0.6s'
+    var rp = document.getElementById('rep')
+    rp.style.width = '7.2%'
+    rp.style.transition = '0.6s'
+    var l = document.getElementById('lover')
+    l.style.width = '7.2%'
+    l.style.transition = '0.6s'
+    var fk = document.getElementById('folk')
+    fk.style.width = '7.2%'
+    fk.style.transition = '0.6s'
+    var f = document.getElementById('fearless')
+    f.style.width = '7.2%'
+    f.style.transition = '0.6s'
     var m = document.getElementById('mid')
-    m.style.width = '95.4px'
-    m.style.transition = '0.8s'
+    m.style.width = '7.2%'
+    m.style.transition = '0.6s'
     var t = document.getElementById('ttpd')
-    t.style.width = '95.4px'
-    t.style.transition = '0.8s'
-    var iever = document.getElementById('iever')
-    iever.style.transform = 'scale(1.1)'
-    iever.style.transition = '0.8s'
-    var idebut = document.getElementById('idebut')
-    idebut.style.transform = 'scale(1.0)'
-    var ispn = document.getElementById('ispn')
-    ispn.style.transform = 'scale(1.0)'
-    var ired = document.getElementById('ired')
-    ired.style.transform = 'scale(1.0)'
-    var inine = document.getElementById('inine')
-    inine.style.transform = 'scale(1.0)'
-    var irep = document.getElementById('irep')
-    irep.style.transform = 'scale(1.0)'
-    var ilover = document.getElementById('ilover')
-    ilover.style.transform = 'scale(1.0)'
-    var ifolk = document.getElementById('ifolk')
-    ifolk.style.transform = 'scale(1.0)'
-    var ifea = document.getElementById('ifea')
-    ifea.style.transform = 'scale(1.0)'
-    var imid = document.getElementById('imid')
-    imid.style.transform = 'scale(1.0)'
-    var ittpd = document.getElementById('ittpd')
-    ittpd.style.transform = 'scale(1.0)'
+    t.style.width = '7.2%'
+    t.style.transition = '0.6s'
+
+    capa.style.display = 'block'
+    capa.style.backgroundImage = 'url(img/evermore.capa.png)'
+
+    mv.style.backgroundColor = '#4D2C1C'
+    mv.style.transition = '0.8s'
 }
 
 function mid(){
     var m = document.getElementById('mid')
-    m.style.width = '400px'
-    m.style.transition = '0.8s'
-    art.style.marginLeft = '8px'
+
+    header.style.background = '#242e47'
+    header.style.color = 'white'
+    header.style.transition = '0.8s'
+    
     art.style.transition = '0.8s'
 
-    var music = document.getElementById('music')
-    music.style.background = '#242e47'
-    music.style.transition = '0.8s'
+    var body = document.getElementById("body")
+    body.style.backgroundColor = '#242e47'
+    body.style.transition = '0.8s'
 
-    var f = document.getElementById('fearless')
-    f.style.width = '95.4px'
-    f.style.transition = '0.8s'
+    m.style.width = '30.5%'
+    m.style.transition = '0.6s'
+    var d = document.getElementById('debut')
+    d.style.width = '7.2%'
+    d.style.transition = '0.6s'
     var s = document.getElementById('spn')
-    s.style.width = '95.4px'
-    s.style.transition = '0.8s'
+    s.style.width = '7.2%'
+    s.style.transition = '0.6s'
     var r = document.getElementById('red')
-    r.style.width = '95.4px'
+    r.style.width = '7.2%'
     r.style.transition = '0.6s'
     var n = document.getElementById('nine')
-    n.style.width = '95.4px'
-    n.style.transition = '0.8s'
+    n.style.width = '7.2%'
+    n.style.transition = '0.6s'
     var rp = document.getElementById('rep')
-    rp.style.width = '95.4px'
-    rp.style.transition = '0.8s'
+    rp.style.width = '7.2%'
+    rp.style.transition = '0.6s'
     var l = document.getElementById('lover')
-    l.style.width = '95.4px'
-    l.style.transition = '0.8s'
+    l.style.width = '7.2%'
+    l.style.transition = '0.6s'
     var fk = document.getElementById('folk')
-    fk.style.width = '95.4px'
-    fk.style.transition = '0.8s'
+    fk.style.width = '7.2%'
+    fk.style.transition = '0.6s'
     var e = document.getElementById('ever')
-    e.style.width = '95.4px'
-    e.style.transition = '0.8s'
-    var d = document.getElementById('debut')
-    d.style.width = '95.4px'
-    d.style.transition = '0.8s'
+    e.style.width = '7.2%'
+    e.style.transition = '0.6s'
+    var f = document.getElementById('fearless')
+    f.style.width = '7.2%'
+    f.style.transition = '0.6s'
     var t = document.getElementById('ttpd')
-    t.style.width = '95.4px'
-    t.style.transition = '0.8s'
-    var imid = document.getElementById('imid')
-    imid.style.transform = 'scale(1.1)'
-    imid.style.transition = '0.8s'
-    var idebut = document.getElementById('idebut')
-    idebut.style.transform = 'scale(1.0)'
-    var ispn = document.getElementById('ispn')
-    ispn.style.transform = 'scale(1.0)'
-    var ired = document.getElementById('ired')
-    ired.style.transform = 'scale(1.0)'
-    var inine = document.getElementById('inine')
-    inine.style.transform = 'scale(1.0)'
-    var irep = document.getElementById('irep')
-    irep.style.transform = 'scale(1.0)'
-    var ilover = document.getElementById('ilover')
-    ilover.style.transform = 'scale(1.0)'
-    var ifolk = document.getElementById('ifolk')
-    ifolk.style.transform = 'scale(1.0)'
-    var iever = document.getElementById('iever')
-    iever.style.transform = 'scale(1.0)'
-    var ifea = document.getElementById('ifea')
-    ifea.style.transform = 'scale(1.0)'
-    var ittpd = document.getElementById('ittpd')
-    ittpd.style.transform = 'scale(1.0)'
+    t.style.width = '7.2%'
+    t.style.transition = '0.6s'
+
+    capa.style.display = 'block'
+    capa.style.backgroundImage = 'url(img/midnights.capa.png)'
+
+    mv.style.backgroundColor = '#9AA0AD'
+    mv.style.transition = '0.8s'
 }
 
 function ttpd(){
     var t = document.getElementById('ttpd')
-    t.style.width = '400px'
-    t.style.transition = '0.8s'
-    art.style.marginLeft = '8px'
+
+    header.style.background = '#cccccc'
+    header.style.color = 'black'
+    header.style.transition = '0.8s'
+    
     art.style.transition = '0.8s'
+    
+    var body = document.getElementById("body")
+    body.style.backgroundColor = '#cccccc'
+    body.style.transition = '0.8s'
 
-    var music = document.getElementById('music')
-    music.style.background = '#cccccc'
-    music.style.transition = '0.8s'
 
-    var f = document.getElementById('fearless')
-    f.style.width = '95.4px'
-    f.style.transition = '0.8s'
-    var s = document.getElementById('spn')
-    s.style.width = '95.4px'
-    s.style.transition = '0.8s'
-    var r = document.getElementById('red')
-    r.style.width = '95.4px'
-    r.style.transition = '0.8s'
-    var n = document.getElementById('nine')
-    n.style.width = '95.4px'
-    n.style.transition = '0.8s'
-    var rp = document.getElementById('rep')
-    rp.style.width = '95.4px'
-    rp.style.transition = '0.8s'
-    var l = document.getElementById('lover')
-    l.style.width = '95.4px'
-    l.style.transition = '0.8s'
-    var fk = document.getElementById('folk')
-    fk.style.width = '95.4px'
-    fk.style.transition = '0.8s'
-    var e = document.getElementById('ever')
-    e.style.width = '95.4px'
-    e.style.transition = '0.8s'
-    var m = document.getElementById('mid')
-    m.style.width = '95.4px'
-    m.style.transition = '0.8s'
+    t.style.width = '30.5%'
+    t.style.transition = '0.6s'
     var d = document.getElementById('debut')
-    d.style.width = '95.4px'
-    d.style.transition = '0.8s'
-    var ittpd = document.getElementById('ittpd')
-    ittpd.style.transform = 'scale(1.1)'
-    ittpd.style.transition = '0.8s'
-    var idebut = document.getElementById('idebut')
-    idebut.style.transform = 'scale(1.0)'
-    var ispn = document.getElementById('ispn')
-    ispn.style.transform = 'scale(1.0)'
-    var ired = document.getElementById('ired')
-    ired.style.transform = 'scale(1.0)'
-    var inine = document.getElementById('inine')
-    inine.style.transform = 'scale(1.0)'
-    var irep = document.getElementById('irep')
-    irep.style.transform = 'scale(1.0)'
-    var ilover = document.getElementById('ilover')
-    ilover.style.transform = 'scale(1.0)'
-    var ifolk = document.getElementById('ifolk')
-    ifolk.style.transform = 'scale(1.0)'
-    var iever = document.getElementById('iever')
-    iever.style.transform = 'scale(1.0)'
-    var imid = document.getElementById('imid')
-    imid.style.transform = 'scale(1.0)'
-    var ifea = document.getElementById('ifea')
-    ifea.style.transform = 'scale(1.0)'
+    d.style.width = '7.2%'
+    d.style.transition = '0.6s'
+    var s = document.getElementById('spn')
+    s.style.width = '7.2%'
+    s.style.transition = '0.6s'
+    var r = document.getElementById('red')
+    r.style.width = '7.2%'
+    r.style.transition = '0.6s'
+    var n = document.getElementById('nine')
+    n.style.width = '7.2%'
+    n.style.transition = '0.6s'
+    var rp = document.getElementById('rep')
+    rp.style.width = '7.2%'
+    rp.style.transition = '0.6s'
+    var l = document.getElementById('lover')
+    l.style.width = '7.2%'
+    l.style.transition = '0.6s'
+    var fk = document.getElementById('folk')
+    fk.style.width = '7.2%'
+    fk.style.transition = '0.6s'
+    var e = document.getElementById('ever')
+    e.style.width = '7.2%'
+    e.style.transition = '0.6s'
+    var m = document.getElementById('mid')
+    m.style.width = '7.2%'
+    m.style.transition = '0.6s'
+    var f = document.getElementById('fearless')
+    f.style.width = '7.2%'
+    f.style.transition = '0.6s'
+
+    capa.style.display = 'block'
+    capa.style.backgroundImage = 'url(img/ttpd.jpg)'
+
+    mv.style.backgroundColor = '#808080'
+    mv.style.transition = '0.8s'
 }

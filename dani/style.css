@@ -5,91 +5,172 @@
     padding: 0px;
 }
 
-header > h1{
-    width: 100%;
-    height: 60px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(43, 43, 43);
-    margin-bottom: 20px;
-    font-size: 1.4em;
+header{
+    background-color: white;
+    padding-bottom: 10px;
+    padding-top: 20px;
     text-align: center;
-    padding-top: 25px;
-
+    position: fixed;
+    width: 100%;
 }
 
-h2#music{
+h1{
+    padding-bottom: 10px;
+}
+
+span#ham{
     display: block;
-    margin: auto;
-    padding: 13px;
-    width: 30%;
-    margin-top: -20px;
-    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+menu{
+    display: none;
+}
+
+li{
+    display: block;
+    padding: 10px;
+    font-family: 'Confortaa', sans-serif;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: white;
+    transition: 0.3s;
 }
 
 article#art{
-    margin-left: 8px;
-    max-height: 600px;
+    display: block;
+    margin: auto;
+    align-content: center;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 106px;
+
 }
 
+
+
 div{
-    width: 98px;
-    height: 550px;
-    height: 80px;
+    display: inline-block;
+    margin: -2px;
+    width: 35px;
+    height: 200px;
     overflow: hidden; 
-    max-height: 600px;
+    max-width: 1000px;
+    margin-bottom: -4px;
 }
 
 img{
     width: 400px;
     height: 550px;
-    max-width: 380px;
     position: relative;
 }
 
-div#debut > img{
-   
+div#debut{
+   background-image: url(img/debut.jpg);
+   background-position: left;
+   background-size: cover;
 }
 
 div#fearless{
-
+    background-image: url(img/fearless.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 div#spn{
-
+    background-image: url(img/speakNow.jpg);
+   background-position: center;
+   background-size: cover;
 }
 
 div#red{
+    background-image: url(img/red.jpg);
+   background-position: center;
+   background-size: cover;
     
 }
 
 div#nine{
+    background-image: url(img/nine.jpg);
+   background-position: center;
+   background-size: cover;
  
 }
 
 div#rep{
+    background-image: url(img/reputation.jpeg);
+   background-position: center;
+   background-size: cover;
   
 }
 
 div#lover{
+    background-image: url(img/lover.jpg);
+   background-position: center;
+   background-size: cover;
  
 }
 
 div#folk{
+    background-image: url(img/folklore.png);
+   background-position: center;
+   background-size: cover;
  
 }
 
 div#ever{
+    background-image: url(img/evermore.jpg);
+   background-position: center;
+   background-size: cover;
  
 }
 
 div#mid{
+    background-image: url(img/midnights.jpg);
+   background-position: center;
+   background-size: cover;
  
 }
 
 div#ttpd{
+    background-image: url(img/ttpd\ \(2\).jpg);
+   background-position: center;
+   background-size: cover;
 
 }
 
-section{
-    padding-bottom: 100px;
+article#mv{
+    height: 1050px;
+    padding-top: 10px;
+}
+
+p#txta{
+    text-align: center;
+    max-width: 550px;
+    padding: 10px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+        
+}
+
+div#capa{
+    display: none;
+    width: 68%;
+    height: 29.5%;
+    margin: auto;
+    margin-top: 20px;
+    background-size: cover;
+    padding-top: 20px;
+    border-radius: 10px;
+    
 }
