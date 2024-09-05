@@ -49,29 +49,26 @@ article#art{
     display: block;
     margin: auto;
     align-content: center;
-    margin-left: 20px;
     justify-content: center;
     align-items: center;
     padding-top: 106px;
+    width: 100%;
+}
 
+section#all {
+    display: flex;
+    width: 100%;
 }
 
 
-
-div{
+div.album-capa{
     display: inline-block;
-    margin: -2px;
-    width: 6.95%;
-    height: 200px;
+    height: 300px;
     overflow: hidden; 
     margin-bottom: -4px;
+    width: 100%;
 }
 
-img{
-    width: 400px;
-    height: 550px;
-    position: relative;
-}
 
 div#debut{
    background-image: url(img/debut.jpg);
@@ -126,14 +123,14 @@ div#folk{
  
 }
 
-div#ever{
+div#evermore{
     background-image: url(img/evermore.jpg);
    background-position: center;
    background-size: cover;
  
 }
 
-div#mid{
+div#midnights{
     background-image: url(img/midnights.jpg);
    background-position: center;
    background-size: cover;
@@ -159,6 +156,7 @@ p#txta{
     color: white;
     font-family: "Roboto", sans-serif;
     font-weight: 300;
+    padding-bottom: 10px;
         
 }
 

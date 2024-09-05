@@ -95,15 +95,9 @@ var albuns = {
     capa: "url(img/ttpd.jpg)",
     cor2: "#808080",
   },
-
-
 };
 
-function handleCoverClick(coverId) {
-  var capaAtual = document.getElementById(coverId);
-
-  console.log(coverId);
-
+function handleCoverClick(albumId) {
   header.style.background = "#a5c9a5";
   header.style.color = "black";
   header.style.transition = "0.8s";
@@ -114,38 +108,23 @@ function handleCoverClick(coverId) {
   body.style.backgroundColor = "#a5c9a5";
   body.style.transition = "0.8s";
 
-  capaAtual.style.width = "32.9%";
-  capaAtual.style.transition = "0.6s";
-  // var f = document.getElementById('fearless')
-  // f.style.width = '7.2%'
-  // f.style.transition = '0.6s'
-  // var s = document.getElementById('spn')
-  // s.style.width = '7.2%'
-  // s.style.transition = '0.6s'
-  // var r = document.getElementById('red')
-  // r.style.width = '7.2%'
-  // r.style.transition = '0.6s'
-  // var n = document.getElementById('nine')
-  // n.style.width = '7.2%'
-  // n.style.transition = '0.6s'
-  // var rp = document.getElementById('rep')
-  // rp.style.width = '7.2%'
-  // rp.style.transition = '0.6s'
-  // var l = document.getElementById('lover')
-  // l.style.width = '7.2%'
-  // l.style.transition = '0.6s'
-  // var fk = document.getElementById('folk')
-  // fk.style.width = '7.2%'
-  // fk.style.transition = '0.6s'
-  // var e = document.getElementById('ever')
-  // e.style.width = '7.2%'
-  // e.style.transition = '0.6s'
-  // var m = document.getElementById('mid')
-  // m.style.width = '7.2%'
-  // m.style.transition = '0.6s'
-  // var t = document.getElementById('ttpd')
-  // t.style.width = '7.2%'
-  // t.style.transition = '0.6s'
+  const listaNomeAlbuns = Object.keys(albuns);
+
+  let index = 0;
+
+  while (index < listaNomeAlbuns.length) {
+    const album = listaNomeAlbuns[index];
+
+    var albumElemento = document.getElementById(album);
+    if (album === albumId) {
+      albumElemento.style.width = "32.9%";
+    } else {
+      albumElemento.style.width = "6.71%";
+    }
+    albumElemento.style.transition = "0.6s";
+
+    index++;
+  }
 
   mv.style.backgroundColor = "#3A633A";
   mv.style.transition = "0.8s";
